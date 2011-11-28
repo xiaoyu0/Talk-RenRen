@@ -1,0 +1,4 @@
+#!/bin/wyshell
+#echo "I'm using my own shell -- wyshell"
+date
+ps

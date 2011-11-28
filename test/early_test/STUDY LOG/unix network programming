@@ -1,0 +1,119 @@
+wide area network       WAN
+
+head file    <sys/socket.h>
+
+在  include/arpa 这个目录下也有许多, 有四个转换字节顺序的函数定义在  /arpa/inet.h  中
+还有这个目录  include/netinet        internet addresses are defined in   <netinet/in.h>
+
+在  include/stdint.h  中  , 定义了很多  data type (  integer type)
+
+其实network programming 也是一种  IPC ,  between processes on different machines
+
+socket descriptor 实质上就是一个 file descriptor,  应该是就存在于 一个 process 的 file descriptor table 里面,  当分配socket descriptor 的时候(dup.c), 分配的是 第一个未使用的 file descriptor number,   所以, 可以作用在file descriptor 上的函数很多都可以作用在 socket descriptor上.
+
+除了可以用write, read ,  six socket functions are designed for data transfer .
+ssize_t send()
+ssize_t sendto()
+ssize_t sendmsg()
+ssize_t recv()
+ssize_t recvfrom()
+ssize_t recvmsg()
+
+表示地址的结构通常都以  sockaddr_ 开头,  sockaddr_in 是  IPV4 socket address,  included in  <netinet/in.h>
+
+<sys/types.h> 定义了很多常用的整型 
+
+AF_   prefix stands for "address family" , and the "PF_" prefix  stands for "protocol family"
+
+byte ordering functions
+  htonl()   //  host to network long
+  htons()
+  ntohl()
+  ntohs()
+  不管怎样都应该使用这些函数, 应为如果本地 byte order 与 network byte order是一样的话, 这些函数就不会起作用(宏定义为空)
+
+bind()   accept()  connect() 都要用到 地址(所占空间)  的长度          socklen_t   addrlen
+
+byte manipulation functions  ,two groups      <string.h>
+bzero()
+
+socket address structures
+定义了几个这样的structure,   包括 socketaddr_in  (IPV4)  ,   sockaddr_in6(IPV6)  ,   ( sockaddr_un (unix)   , sockaddr_dl (datalink) , sockaddr_storage( storage))
+
+当然最常用的是  sockaddr_in ( 记住这是一个struct, size 为 16 bytes)
+
+struct sockaddr_in 定义在头文件 <netinet/in.h> ,  里面也声明了各种 byte ordering functions , 以及声明了各种整型type, 特别是里面有, 如果(定义了大端字节) , 种种byte ordering functions就被定义为 空的宏, 像   #define  htonl(x)   (x)
+
+struct sockaddr_in
+{
+	uint8_t  sinlen; //固定为16
+	sa_family_t  sin_family;    //要用 AF_NET (还不知道是哪定义的?)
+	in_port_t    sin_port;     //16 bit  TCP or UDP port number,  network byte order
+	
+	struct in_addr sin_addr;   //32 bit IPV4 address, network byte order ,  uint32_t
+	char    sin_zero[];        // unused
+};   // 占 16 字节
+
+struct  in_addr{
+	in_addr_t   s_addr;    // 就是32 bit  ,  uint32_t  ,  network byte order
+};
+
+所有的 INADDR_  constants 都定义在 <netinet/in.h> 中 , 并且是 host byte order ,  we should use  htonl()  with  any of these constants
+#define	INADDR_ANY		((in_addr_t) 0x00000000)
+#define	INADDR_BROADCAST	((in_addr_t) 0xffffffff)
+#define	INADDR_NONE		((in_addr_t) 0xffffffff)
+#ifndef INADDR_LOOPBACK
+# define INADDR_LOOPBACK	((in_addr_t) 0x7f000001) /* Inet 127.0.0.1.  */
+#define INADDR_UNSPEC_GROUP	((in_addr_t) 0xe0000000) /* 224.0.0.0 */
+#define INADDR_ALLHOSTS_GROUP	((in_addr_t) 0xe0000001) /* 224.0.0.1 */
+#define INADDR_ALLRTRS_GROUP    ((in_addr_t) 0xe0000002) /* 224.0.0.2 */
+#define INADDR_MAX_LOCAL_GROUP  ((in_addr_t) 0xe00000ff) /* 224.0.0.255 */
+
+int close(sockfd);  <unistd.h> , close a socket(should it be just delete the number??)
+
+socket 有各种(11 kinds of) states P41, and the kernel maintains two queues for each given listening socket P105 (unix network programming), 
+incomplete connection queue         SYN_RCVD  state
+complete connection queue         ESTABLISHED state
+
+accept is called by a TCP server to return the next completed connection from the front of the completed connection queue(关于这里, 后面应该看源代码具体的实现)
+
+int accept(int sockfd,sockaddr * cliaddr, socklen_t * addrlen) 实质返回了三个参数(从这里也许可以看出为什么几个函数都要 址址长度)  <sys/socket.h>
+ returns a brand-new(全新的) socket descriptor for the connection 
+
+local host  127.0.0.1
+
+about the address conversion functions ( convert IP address between  ASCII strings and network byte ordered binary values )
+first group , handle both IPV4 and IPV6 (we should use this usually)
+int inet_pton(int family, const char * strptr , void * addrptr)
+const char * inet_ntop(int family , const void * addrptr , char * strptr, size_t len)// here  len is  16(IPV4) or  64(IPV6)
+
+the p represents  presentation,  and n   numeric ,     family  shoud be  AF_INET or AF_INET6
+
+command  netstat  shows the status of all sockets on the system,    specify the -a flag to see listening sockets
+there is too much output , use this     netstat -a | grep 9877
+
+#include <linux/types.h>
+  5 
+  6 struct sock_extended_err
+  7 {
+  8         __u32   ee_errno;
+  9         __u8    ee_origin;
+ 10         __u8    ee_type;
+ 11         __u8    ee_code;
+ 12         __u8    ee_pad;
+ 13         __u32   ee_info;
+ 14         __u32   ee_data;
+ 15 };
+ 16 
+ 17 #define SO_EE_ORIGIN_NONE       0
+ 18 #define SO_EE_ORIGIN_LOCAL      1
+ 19 #define SO_EE_ORIGIN_ICMP       2
+ 20 #define SO_EE_ORIGIN_ICMP6      3
+ 21 #define SO_EE_ORIGIN_TIMESTAMPING 4
+ 22 
+ 23 #define SO_EE_OFFENDER(ee)      ((struct sockaddr*)((ee)+1))
+ 24 
+ 25 
+ 26 #endif
+
+

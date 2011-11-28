@@ -1,0 +1,23 @@
+stack pointer
+frame pointer
+
+readelf (displays information about ELF format object files)
+
+/usr/lib/libc.a   (archive file, libc.a has a size of 2.9M)
+
+Summary of the Chapter about Linking
+
+how to use ar  to make a static library(.a file)        ar rcs libvector.a   addvec.o  multvec.o(arguments are .o files)
+
+objdump (tool that manipulates obj files)
+
+Exceptional Control Flow(this chapter is pivotal in the sense that we will begin to learn how our applications interact with the operating system)
+
+Each type of possible exception in a system is assigned a unique nonnegative integer  --exception number,  some of these numbers are assigned by the designers of the processor. Other numbers are assigned by the designers of the operating system --kernel(the memory-resident part of the operating system)
+
+for any procedure call, the first three lines of gas assembly codes are 
+pushl  %ebp
+movl   %esp   %ebp
+subl   $16    %esp     #or   andl   $-16    %esp       //? use these 16 bytes to save what
+
+Representing and Manipulating information

@@ -1,0 +1,146 @@
+﻿2010  9  16
+今天觉得自己学了这么久什么也没学会关于 linux 的什么东西，方法主要是自己的学习想法是有问题的吧，现在先大体多扫看点书，找到一个突破口学习
+问下铭铎怎么改成管理员权限，我复制到/usr/src/目录下的linux源代码访问不了？ 
+问下东升他的ubuntu是在哪里下的，看下他那里面有没有源代码？
+把东升那个工具拷过来，试到破解下UESTC的password
+
+9  17
+搞清楚CPU（X86 architecture) 里面 有多少 register, 各干什么用的， pc 作用，以及 看下机器指令（汇编指令有哪些类，作什么功能用）
+把昨天的事做了
+今天感觉还不错，看了些 advanced unix programming，写了一点点笔记，   一本一本书看(现在至少有三本很重要的， linux 和  write great code,  computer system(programmer's perspective)，然后把自己的知识积累都写下来（一个个knowledge 和自己的  understanding)
+
+9  19
+破图书馆无线，必须要上网了
+
+9  20
+查下（或问下文亮）怎么修改设置vim（里面的字体颜色什么的） 
+看UNIX高级编程， 自己实现个shell (wy), 以后就用这个shell, 可作为第一个 课程设计，以及面腾讯时用
+
+9  21
+早上7点前起床，多花点时间来图书錧
+
+9  23
+看了waite函数后,开始看 interprocess communication ,然后实现那个 shell
+及时把自己理解到的写下来,记下来, 也可以画图制表啥的
+看IO buffer,重定向
+哪里有讲unix system call 的 document ??    官网上应该有什么POIX,SUV标准之类的吧
+
+9  24
+Just leave error handling for a while ,or do it simply tempararily,   I think the error handling in the book ,those macros,the header file, are written by the auther himself, so I can do it myself later.
+
+9  29
+10月10号腾讯招聘前,做一个 shell 以及一个  linux 下的网络聊天的小软件(可以从echo 开始), 同时也做为两次课程设计的
+signal的先看到这里, 现在看进程通信, 开始写那个 shell
+
+9  30
+同时要收集各种知识的主要来源,收集各种documents , websites ...
+看了进程通信后(同时写shell)后, 看 terminal,终端, 伪终端
+thread 这里创建线程的程序出问题, 问下苏东
+适当结合 understanding the linux kernel开始看了, 进程, 线程那里好多东西都是带过的, 深入不了本质(差得远)
+有关pipe 的 函数在  <unistd.h>
+
+10  4
+两个课程设计, 暂定为一个shell, 和一个linux版的聊天程序
+两本讲UNIX环境编程的书(当然主要是厚的那本), 上面的知识我(最终)要融会贯通, 书上讲的都是 system calls, 这也是操作系统的  灵魂
+
+10  5
+学习vi 怎么调下字体颜色等, 应该有个 configuration 文件啥的
+这段时间学习, 就读上面,写上面的程序, 把一个个代码,一个个system call 搞懂
+
+10  6
+在中江新华书店看到过一本讲linux网络栈实现(分析源代码)的书,以后要看
+继续把echo 程序写完,  边写边学习, 写完开始写shell
+
+10  7
+我应该没完全发挥出vim的功能吧,vim应该有很复杂的架构,比如那种VC有的提示功能它有没?看下下的那个vim文档
+早睡早起
+明天开始写shell, echo卡住了就写shell.
+
+10  8
+在GNU官网上下到一个 lib.c GNU C library reference Manuel ,  好东西!!, 以后document多上这个网站上找下
+问下文亮或苏东那个编绎错误 gettoken.c 是哪们的 ,    (是因为没用C++编译,C中没有定义到有 bool)
+以后各种编程技巧,某种用法,都写个小程序把它记下来, 积累
+
+10  9 
+收集一些常用的网站什么的,里面有很多知识讲解,如 中国源码网 ,www.yuanma.org
+搞清gcc,g++的区别,以后写C,按照C++的语法写
+这个网址也很不错,查strchr用法时看到的http://www.kuqin.com/clib/string/strchr.html
+http://www.kuqin.com/
+
+10  10
+今天下午快抄完那个 shell , 又遇到点瓶颈啥的了, 有点看不进去, 这几天看不进去就做课程设计,然后换到东西看找新的突破口
+看下终端 tty 的内容,另外声卡驱动换了,顺便了解下驱动的内容
+
+10  11
+做shell这个项目, 顺便把make,makefile的用法学了,并自己写一个用于这个shell的
+
+10  13
+把unix/linux下一个个system call弄懂,可以自己都慢慢写test program,像select,vfork,waitpid...,至少书上介绍到了的要完全弄懂
+
+10  16
+这学期的任务是除了尽量学透linux内核外,就是系统学习算法(那本书),并系统深入看 C++标准库是怎么实现它们的
+这段时间这习弄懂之后把我的wy-shell改造为支持job control
+下一步要结合到linux的内核实现,来学习system call了,这次就是要系统透彻的学习好
+这一段时间(也许这一学期)对system calls,linux,算法...程序,计算机知识需要持续的学习和记忆(很多东西还是记出来的,我就采用高效的记忆,一直记着自己要达到哪种知识状态)
+
+10  17
+还需要学习透彻的是网络
+不是没有项目经历吗,查下去参加些开源项目,这个在GNU项目里面可以查到,上次还看到好多正在进行的项目
+弄清楚sizeof(struct)??以及里面的什么对齐?
+下一个像libc document那样的关于C++的文档
+
+把网络的东西彻底学扎实
+找到一个free sofeware项目, coreboot, a replacement for BIOS
+
+10  20
+system calls..像记单词一样,也需要我弄懂以后时不时往回看一下,慢慢永远的记住以及知识永远的形成
+
+10  21
+规模再小也必须有记律,至少不能忘记去建立它
+下linux源码(应该下了),整理下ubuntu下的东西,   linux kernel source can be downloaded from   www.kernel.org
+计算机,程序是一个世界,就像是这个以人为单位的世界.我要进入这个世界,了解它,试图掌握,并且明白里面最重要,关键的东西
+就像自己从书上写下来的那个shell一样,自己最重要的是弄懂它的架构, architecture,linux kernel 一样,作为很多程序和数据结构的集合,我一点点学习的目的也是弄懂它的architecture,为了describe 这个 architecture,当然会有很多 专门的词(也许术语)
+
+10  22
+看the computer system,第三章,Machine-Level Representation of Programs, 里面到了对齐Alignment,procedure(函数)的实现
+讲Alignment这里面有这样一句话, many computer systems place restrictions on the allowable addresses for the primitive ata types,requiring that the address for some type of object must be a multiple of some value k(typically2,4,8).Such alignment restrictions simplify the design of the hardware forming the interface between the processor and the memory system.    以后学习一下硬件方面的知识和设计,processor 和 memory system这间的这种access
+
+下linux下gas(assembly)的文档
+下intel的three volumes(好像有了)
+
+图书錧里有 C++ primer,c++ standard library,STL effective programming,就在图书馆里把 文本查询系统这个函数写了
+现在的任务是从机器指令那一层,底层,到系统弄懂
+
+10  23
+在官网上下computer system书上的代码
+
+10  26
+昨天看到,MIT将差不多2000门课的视频免费放到了网上,自己要去看下
+在www.linuxjournal.com/article 上有很多文章, /article/177是讲/proc的
+
+10  28
+开始看下数据结构中堆的那个调整,调整还在其它地方,STL中的red-black tree,也看明白(考研的卷子上都有这个)
+computer system上内容真的太好太多,他仔细把它学完,结合到understanding linux 和 unix advanced programming 以及 intel 3rd volume
+看C++primer 的类模板,并且学泛型算法STL
+
+10  30
+今天看exceptional control flow这章比较有感觉,结合着intel volume3看了一下,比较有感觉,自己要把OS, X86 architecture 辅助OS实现各个feature的细节都搞清楚,并结合linux的实现,computer system这本书要全部细细的看
+intel 3,弄清楚x86 architecture,且学习 gas
+
+10  31
+在这一系列的学习之后,看下CPU的设计(涉及数电知识),computer system , chapter 4
+以及memory,bus之类的,怎么读到一个数,address,data bus之类的
+
+11  5
+要写一个computer system书上的那个allocator
+下linux源码
+
+11  8
+感觉自己有点陷入那种看了很多书,又没学到太多东西,我耍要实际去参与一些项目,下周一问一王老师(记着要邮箱),他的教研室有没有这个学期内可以参与下的项目(他信息安全)
+
+11  9
+现在关于计算机,程序的东西学得越来越多了,需要一个系统整理下.如今天在C语言书上看到 位域(bit field),都不记得以前看到的这个(应用)在哪里
+
+11  10
+今天在看 计算机组成原理,有一些感觉,这两天快速拉一遍,可以有更宽的视角,计算机体系,CPU architecture也是有很多种的,而且有两大类,CISC, RISC
+看Intel二卷机器指令有哪几类

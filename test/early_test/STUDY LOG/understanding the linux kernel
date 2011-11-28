@@ -1,0 +1,23 @@
+transitions between User mode and Kernel Mode happen only through well-established hardware mechanisms called  interupts and exceptions .
+processes are a fundamental abstraction offered by Linux and are introduced in Chapter 3
+linux supports kernel threading , a kernel thread is an execution context that can be independently scheduled
+Linux regards lightweight processes as the basic execution context and handles them via the nonstandard clone() system call
+a mutiuser system
+users and groups
+processes
+
+linux supports modules
+a file system is a user-level view of the physical organization of a hard disk partion
+a CPU can run in either User Mode or Kernel Mode. Actually,some CPUs can have more than two execution states
+
+the kernel itself is not a process but a process manager
+Unix signals provide a mechanism for notifying processes of system events
+
+virtual memory acts as a logical layer between the application memory requests and the hardware Memory Management Unit(MMU)
+when a process uses a virtual address,the kernel and the MMU cooperate to find the actual physical location of the requested memory item
+Today's CPUs have hardware circuits that automatically translate the virtual addresses into physical ones.
+
+a good part of the available physical memory is used as cache for hard disks and other block devices(how is the cache system?   sync()  )
+
+The kernel interacts with I/O devices by means of  device drivers.
+device files normally found in the /dev directory.Actually,the device files are the user-visible portion of the device driver interface

@@ -1,0 +1,5 @@
+Control Resgisters(CR0,CR1,CR2,CR3,CR4),determine operating mode of the processor and the characteristics of the currently executing task
+2--5
+
+讲privilege 的在哪,0,1,2,3    4--9
+the processor's segment-protection mechanism recognizes 4 privilege levels,numbered from 0 to 3 

@@ -1,0 +1,96 @@
+./ is a directory
+
+it's better to use  info  to view  a tool's manuel, it supports searching for a certain string
+
+ELF is a platform-independent  format,    a standard for binary code
+
+
+famous open-source  forum       LUPA
+
+
+I can not copy  executable  files to   /bin   or    /usr/bin (with sudo  can)
+
+sourceforge.net is a especially-designed main website to support open-source projects
+
+/  is the name of the   root directory,   and /  can not be used in other subdirectory names  or  file names
+
+~ means  main directory
+
+pwd              print working directory
+
+/usr   子目录中的文件不常改动,可由多个系统共享?          其下的  /usr/include   是C程序包含的头文件      /usr/lib 是库文件  
+
+make 工具    makefile 文件,  实际上就是编译器的一个工具和自己设计的一种文件格式,  用于自己编译
+
+ 多少位的  processor 应该指的是 通用寄存器和数据总线中的小值
+
+把自己学习的一步步都写下来,是做笔记,或学习日志,知识记录               把各个部份,各个方面,一条线上各个部件一点一点都搞清楚
+
+很多技术, 像 C 语言    , C 的编译技术 ,     OS 本身的技术,    .... 都 是在编写和发展操作系统的过程中发展起来的
+
+什么上CPU 中指的    Architecture  ???                             中断可以方便地实现系统调用
+
+保护模式下,BIOS中断不能再使用,why??
+
+operating system is the code that carries out the system calls
+
+在bash里面 运行 sh  这是所有shell的祖先   /bin   中有这个程序
+
+the shell has the terminal as standard input and standard output??    terminal??
+在 linux 中, 设备都是文件, 是 special  file    分为  block special file 和  character special file, 在 shell 中,可以通过   > 和<  重定向输入和输出到某个
+文件, 比如 打印机  也是文件  ,       sort  <file1  >file2  就是 从  file1 中读入, 输出到file2中,     cat file1  file2  | sort  >file  就是边接file1  和
+file2   再  sort后, 输出到file 中                        在命令后加   &  表示让程序再后台执行
+
+the actual mechanics of issuing a system call are highly machine dependent 
+the heart of any operating system is the set of system calls that it can handle
+
+去学习清楚CPU和 memory 之间的连接架构 (应该在 计算机组成原理 )　 gh 
+
+中断是计算机中的一种技术(计算机体系)   (硬件级别的实现)
+
+外部中断也称为外部硬件实时中断，他由来自CPU某一引脚上的信号引起；内部中断也称软件指令中断，他是为了处理程序运行过程中发生的一些意外情况或调试程序而提供的中断。 
+中断指令 INT n  调用n号中断处理程序
+
+????看数电,register是怎么实现的
+
+把 understanding the linux kernel 和 advanced unix programming 一起看, 学unix/linux
+
+path variable??  environment variable ??
+
+UNIX standard documents  ,  POSIX and SUS ,describes the interfaces in C ?????
+
+Guidelines for calling Library Functions (调用库函数的原则）
+include the necessay headers
+make sure you know how the function indicates an error ??
+don't use casts unless absolutely necessary
+if you are use more than one thread ,know whether the function you want to call is thread safe
+try to write to the standard interfaces
+
+exit is a system call  ,it doesn't return (so it can't return an error)   ,exit(EXIT_FAILTURE)
+symbol  EXIT_FAILURE is in Standard C
+
+/etc: (etcetera)系统管理所要的配置文件和子目录
+/sbin：系统管理员使用的系统管理程序；
+　　/tmp： 存放各程序执行时所产生的临时文件；
+　　/usr：占空间最大的目录，用户的很多应用程序和文件几乎全在这个目录中；
+　　/var：存放一些系统记录文件和配置文件；
+/lib:(library)系统基本的动态链接库
+
+vim的环境设置,在我的用户目录下建一个 文件  ~/.vimrc  里面写上命令就行 , 如我自己的就写了   :set background=dark        :syntax on
+或者是修改 /etc/vim/vimrc  文件
+
+获取变量内容时,前面加$    echo $PATH
+
+fg可以把后台运行的调到前台来(foreground),bg可以把前台运行的命令调到后台云(background)   fg %n(指定具体哪个job)
+jobs 命令 jobs -l
+
+pstree
+
+top (display linux tasks) (system monitor那个x-window程序应该就易包装top形成的),查看内存资源 free,  网络监控方面 netstat
+kill -l                kill %jobnumber     kill PID
+
+On linux ,the error constants are listed in the errno manual page
+
+On unix machines,the file /etc/services contains a comprehensive list of the services provided on that machine,along with their well-known ports
+
+/etc/resolv.conf     DNS servers
