@@ -1,0 +1,291 @@
+set_host called, arg is www.renren.com
+quit print_addr without any print(addr is empty)
+  () 60.29.242.220 (60.29.242.220)
+packet length : -1
+header length : 28
+data length   : 32
+opts_idx      : 1
+first hop     : 1
+probes_per_hop: 3
+num_probes    : 90
+dst_port_seq  : 0
+num_gateways  : 0
+send_secs     : 0.00
+opts[0]        : (null)
+the addrss allocated for time_intervall in heap : 0x8055240 
+ time_interval : 0.598519 ,    rand()/RAND_MAX : 0.741367  ,  rand()  : 1592073128.000000
+time_interval : 1.740545 ,    rand()/RAND_MAX : 0.418837  ,  rand()  : 899446387.000000
+time_interval : 0.040856 ,    rand()/RAND_MAX : 0.979779  ,  rand()  : 2104059433.000000
+time_interval : 0.746352 ,    rand()/RAND_MAX : 0.688544  ,  rand()  : 1478637262.000000
+time_interval : 1.839884 ,    rand()/RAND_MAX : 0.398542  ,  rand()  : 855862604.000000
+time_interval : 5.674296 ,    rand()/RAND_MAX : 0.058593  ,  rand()  : 125826498.000000
+time_interval : 1.345539 ,    rand()/RAND_MAX : 0.510293  ,  rand()  : 1095846384.000000
+time_interval : 1.479541 ,    rand()/RAND_MAX : 0.477223  ,  rand()  : 1024829443.000000
+time_interval : 0.532846 ,    rand()/RAND_MAX : 0.766115  ,  rand()  : 1645219418.000000
+time_interval : 0.977533 ,    rand()/RAND_MAX : 0.613382  ,  rand()  : 1317228792.000000
+time_interval : 0.143511 ,    rand()/RAND_MAX : 0.930759  ,  rand()  : 1998789014.000000
+time_interval : 3.197412 ,    rand()/RAND_MAX : 0.202158  ,  rand()  : 434130797.000000
+time_interval : 14.590517 ,    rand()/RAND_MAX : 0.000679  ,  rand()  : 1457603.000000
+time_interval : 0.378346 ,    rand()/RAND_MAX : 0.827643  ,  rand()  : 1777350737.000000
+time_interval : 3.544444 ,    rand()/RAND_MAX : 0.169955  ,  rand()  : 364975481.000000
+time_interval : 0.110938 ,    rand()/RAND_MAX : 0.946041  ,  rand()  : 2031608635.000000
+time_interval : 0.431830 ,    rand()/RAND_MAX : 0.805804  ,  rand()  : 1730450672.000000
+time_interval : 2.365066 ,    rand()/RAND_MAX : 0.306501  ,  rand()  : 658206782.000000
+time_interval : 0.727401 ,    rand()/RAND_MAX : 0.695100  ,  rand()  : 1492714811.000000
+time_interval : 0.365268 ,    rand()/RAND_MAX : 0.833073  ,  rand()  : 1789011021.000000
+time_interval : 2.150715 ,    rand()/RAND_MAX : 0.341176  ,  rand()  : 732669511.000000
+time_interval : 4.474732 ,    rand()/RAND_MAX : 0.106739  ,  rand()  : 229220838.000000
+time_interval : 3.547448 ,    rand()/RAND_MAX : 0.169700  ,  rand()  : 364427695.000000
+time_interval : 0.514046 ,    rand()/RAND_MAX : 0.773350  ,  rand()  : 1660757388.000000
+time_interval : 2.292291 ,    rand()/RAND_MAX : 0.317860  ,  rand()  : 682598281.000000
+time_interval : 3.848638 ,    rand()/RAND_MAX : 0.145975  ,  rand()  : 313479270.000000
+time_interval : 1.921107 ,    rand()/RAND_MAX : 0.382681  ,  rand()  : 821801083.000000
+time_interval : 1.941689 ,    rand()/RAND_MAX : 0.378763  ,  rand()  : 813387474.000000
+time_interval : 2.435951 ,    rand()/RAND_MAX : 0.295828  ,  rand()  : 635286722.000000
+time_interval : 0.219018 ,    rand()/RAND_MAX : 0.896274  ,  rand()  : 1924733901.000000
+time_interval : 5.284973 ,    rand()/RAND_MAX : 0.071184  ,  rand()  : 152866606.000000
+time_interval : 6.583148 ,    rand()/RAND_MAX : 0.037195  ,  rand()  : 79876203.000000
+time_interval : 2.309658 ,    rand()/RAND_MAX : 0.315111  ,  rand()  : 676696640.000000
+time_interval : 5.953307 ,    rand()/RAND_MAX : 0.050963  ,  rand()  : 109442391.000000
+time_interval : 0.641129 ,    rand()/RAND_MAX : 0.725739  ,  rand()  : 1558513465.000000
+time_interval : 0.674715 ,    rand()/RAND_MAX : 0.713654  ,  rand()  : 1532559245.000000
+time_interval : 4.422646 ,    rand()/RAND_MAX : 0.109556  ,  rand()  : 235268890.000000
+time_interval : 2.887570 ,    rand()/RAND_MAX : 0.236033  ,  rand()  : 506876201.000000
+time_interval : 3.312253 ,    rand()/RAND_MAX : 0.190877  ,  rand()  : 409905040.000000
+time_interval : 0.265531 ,    rand()/RAND_MAX : 0.875671  ,  rand()  : 1880488308.000000
+time_interval : 0.326415 ,    rand()/RAND_MAX : 0.849415  ,  rand()  : 1824104993.000000
+time_interval : 4.213452 ,    rand()/RAND_MAX : 0.121636  ,  rand()  : 261210406.000000
+time_interval : 5.106495 ,    rand()/RAND_MAX : 0.077829  ,  rand()  : 167135457.000000
+time_interval : 0.324817 ,    rand()/RAND_MAX : 0.850094  ,  rand()  : 1825562596.000000
+time_interval : 0.104105 ,    rand()/RAND_MAX : 0.949279  ,  rand()  : 2038561143.000000
+time_interval : 2.790400 ,    rand()/RAND_MAX : 0.247783  ,  rand()  : 532110938.000000
+time_interval : 0.455972 ,    rand()/RAND_MAX : 0.796135  ,  rand()  : 1709687583.000000
+time_interval : 0.561855 ,    rand()/RAND_MAX : 0.755083  ,  rand()  : 1621528168.000000
+time_interval : 1.180153 ,    rand()/RAND_MAX : 0.554285  ,  rand()  : 1190317720.000000
+time_interval : 1.421666 ,    rand()/RAND_MAX : 0.491235  ,  rand()  : 1054918747.000000
+time_interval : 1.061526 ,    rand()/RAND_MAX : 0.588156  ,  rand()  : 1263055541.000000
+time_interval : 0.220834 ,    rand()/RAND_MAX : 0.895461  ,  rand()  : 1922987231.000000
+time_interval : 1.028416 ,    rand()/RAND_MAX : 0.597974  ,  rand()  : 1284139585.000000
+time_interval : 0.554524 ,    rand()/RAND_MAX : 0.757856  ,  rand()  : 1627483237.000000
+time_interval : 0.804507 ,    rand()/RAND_MAX : 0.668811  ,  rand()  : 1436260972.000000
+time_interval : 0.175841 ,    rand()/RAND_MAX : 0.915834  ,  rand()  : 1966737866.000000
+time_interval : 0.202226 ,    rand()/RAND_MAX : 0.903831  ,  rand()  : 1940962507.000000
+time_interval : 5.932654 ,    rand()/RAND_MAX : 0.051492  ,  rand()  : 110578407.000000
+time_interval : 2.444296 ,    rand()/RAND_MAX : 0.294597  ,  rand()  : 632641693.000000
+time_interval : 3.222283 ,    rand()/RAND_MAX : 0.199660  ,  rand()  : 428765582.000000
+time_interval : 0.107295 ,    rand()/RAND_MAX : 0.947766  ,  rand()  : 2035312308.000000
+time_interval : 2.011442 ,    rand()/RAND_MAX : 0.365781  ,  rand()  : 785508299.000000
+time_interval : 2.880616 ,    rand()/RAND_MAX : 0.236855  ,  rand()  : 508641785.000000
+time_interval : 2.672134 ,    rand()/RAND_MAX : 0.262878  ,  rand()  : 564525301.000000
+time_interval : 1.750567 ,    rand()/RAND_MAX : 0.416744  ,  rand()  : 894950691.000000
+time_interval : 0.076247 ,    rand()/RAND_MAX : 0.962594  ,  rand()  : 2067155250.000000
+time_interval : 0.047497 ,    rand()/RAND_MAX : 0.976531  ,  rand()  : 2097084546.000000
+time_interval : 1.283770 ,    rand()/RAND_MAX : 0.526300  ,  rand()  : 1130219581.000000
+time_interval : 3.232655 ,    rand()/RAND_MAX : 0.198627  ,  rand()  : 426547803.000000
+time_interval : 3.574643 ,    rand()/RAND_MAX : 0.167408  ,  rand()  : 359505938.000000
+time_interval : 1.822755 ,    rand()/RAND_MAX : 0.401970  ,  rand()  : 863224241.000000
+time_interval : 6.071364 ,    rand()/RAND_MAX : 0.048042  ,  rand()  : 103169148.000000
+time_interval : 2.482356 ,    rand()/RAND_MAX : 0.289044  ,  rand()  : 620716344.000000
+time_interval : 1.468778 ,    rand()/RAND_MAX : 0.479799  ,  rand()  : 1030359699.000000
+time_interval : 0.214868 ,    rand()/RAND_MAX : 0.898136  ,  rand()  : 1928731744.000000
+time_interval : 2.868260 ,    rand()/RAND_MAX : 0.238323  ,  rand()  : 511793840.000000
+time_interval : 0.636057 ,    rand()/RAND_MAX : 0.727582  ,  rand()  : 1562470637.000000
+time_interval : 0.729786 ,    rand()/RAND_MAX : 0.694271  ,  rand()  : 1490935680.000000
+time_interval : 0.013233 ,    rand()/RAND_MAX : 0.993405  ,  rand()  : 2133322008.000000
+time_interval : 2.532640 ,    rand()/RAND_MAX : 0.281867  ,  rand()  : 605304710.000000
+time_interval : 3.369338 ,    rand()/RAND_MAX : 0.185506  ,  rand()  : 398370779.000000
+time_interval : 1.084077 ,    rand()/RAND_MAX : 0.581562  ,  rand()  : 1248893901.000000
+time_interval : 3.459512 ,    rand()/RAND_MAX : 0.177328  ,  rand()  : 380808293.000000
+time_interval : 0.488020 ,    rand()/RAND_MAX : 0.783480  ,  rand()  : 1682510364.000000
+time_interval : 2.161049 ,    rand()/RAND_MAX : 0.339417  ,  rand()  : 728893490.000000
+time_interval : 0.334144 ,    rand()/RAND_MAX : 0.846139  ,  rand()  : 1817069265.000000
+time_interval : 0.715312 ,    rand()/RAND_MAX : 0.699314  ,  rand()  : 1501764583.000000
+time_interval : 2.827343 ,    rand()/RAND_MAX : 0.243249  ,  rand()  : 522372350.000000
+time_interval : 0.215993 ,    rand()/RAND_MAX : 0.897631  ,  rand()  : 1927647673.000000
+time_interval : 0.012216 ,    rand()/RAND_MAX : 0.993910  ,  rand()  : 2134406276.000000
+traceroute to www.renren.com (60.29.242.220), 30 hops max, 60 byte packets	probe 0 sent	send_secs : 0.598519
+probe 0 received
+
+ 1  222.197.183.1 (222.197.183.1)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  1.571 ms	probe 1 sent	send_secs : 1.740545
+probe 1 received
+  1.320 ms	probe 2 sent	send_secs : 0.040856
+probe 2 received
+  1.221 ms	probe 3 sent	send_secs : 0.746352
+probe 3 received
+
+ 2  125.71.230.29 (125.71.230.29)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  1.301 ms	probe 4 sent	send_secs : 1.839884
+probe 4 received
+  1.361 ms	probe 5 sent	send_secs : 5.674296
+probe 5 received
+  1.137 ms	probe 6 sent	send_secs : 1.345539
+probe 6 received
+
+ 3  125.71.230.1 (125.71.230.1)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  1.683 ms	probe 7 sent	send_secs : 1.479541
+probe 7 received
+  1.624 ms	probe 8 sent	send_secs : 0.532846
+probe 8 received
+  1.320 ms	probe 9 sent	send_secs : 0.977533
+probe 9 received
+
+ 4  202.98.100.17 (202.98.100.17)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  2.144 ms	probe 10 sent	send_secs : 0.143511
+probe 10 received
+  2.242 ms	probe 11 sent	send_secs : 3.197412
+probe 11 received
+  2.508 ms	probe 12 sent	send_secs : 8.000000
+probe 12 received
+
+ 5  221.237.185.157 (221.237.185.157)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  2.670 ms	probe 13 sent	send_secs : 0.378346
+probe 13 received
+  2.317 ms	probe 14 sent	send_secs : 3.544444
+probe 14 received
+  2.142 ms	probe 15 sent	send_secs : 0.110938
+probe 15 received
+
+ 6  221.237.185.21 (221.237.185.21)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  2.789 ms	probe 16 sent	send_secs : 0.431830
+probe 16 received
+ 221.237.185.37 (221.237.185.37)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  2.478 ms	probe 17 sent	send_secs : 2.365066
+probe 17 received
+  2.649 ms	probe 18 sent	send_secs : 0.727401
+probe 18 received
+
+ 7  222.213.14.161 (222.213.14.161)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  3.058 ms	probe 19 sent	send_secs : 0.365268
+probe 19 received
+  2.718 ms	probe 20 sent	send_secs : 2.150715
+probe 20 received
+  2.925 ms	probe 21 sent	send_secs : 4.474732
+probe 21 received
+
+ 8  202.97.36.10 (202.97.36.10)		CN	N/A	N/A	N/A	35.000000	105.000000
+  16.235 ms	probe 22 sent	send_secs : 3.547448
+probe 22 received
+ 202.97.37.106 (202.97.37.106)		CN	N/A	N/A	N/A	35.000000	105.000000
+  2.772 ms	probe 23 sent	send_secs : 0.514046
+probe 23 received
+ 202.97.36.10 (202.97.36.10)		CN	N/A	N/A	N/A	35.000000	105.000000
+  22.494 ms	probe 24 sent	send_secs : 2.292291
+probe 24 received
+
+ 9  202.97.37.66 (202.97.37.66)		CN	N/A	N/A	N/A	35.000000	105.000000
+  16.217 ms	probe 25 sent	send_secs : 3.848638
+probe 25 received
+  20.224 ms	probe 26 sent	send_secs : 1.921107
+probe 26 received
+  109.711 ms	probe 27 sent	send_secs : 1.941689
+probe 27 received
+
+10  218.30.19.110 (218.30.19.110)		CN	22	Beijing	Beijing	39.928902	116.388298
+  166.253 ms	probe 28 sent	send_secs : 2.435951
+probe 28 received
+  90.404 ms	probe 29 sent	send_secs : 0.219018
+probe 29 received
+  17.305 ms	probe 30 sent	send_secs : 5.284973
+probe 30 received
+
+11  218.30.69.18 (218.30.69.18)		CN	22	Beijing	Beijing	39.928902	116.388298
+  17.351 ms	probe 31 sent	send_secs : 6.583148
+probe 31 received
+  39.702 ms	probe 32 sent	send_secs : 2.309658
+probe 32 received
+  40.744 ms	probe 33 sent	send_secs : 5.953307
+
+12  *	probe 34 sent	send_secs : 0.641129
+	probe 35 sent	send_secs : 0.674715
+	probe 36 sent	send_secs : 4.422646
+ * *	probe 37 sent	send_secs : 2.887570
+
+13  *	probe 38 sent	send_secs : 3.312253
+ *	probe 39 sent	send_secs : 0.265531
+	probe 40 sent	send_secs : 0.326415
+	probe 41 sent	send_secs : 4.213452
+ *	probe 42 sent	send_secs : 5.106495
+
+14  * * *
+15  *	probe 43 sent	send_secs : 0.324817
+	probe 44 sent	send_secs : 0.104105
+	probe 45 sent	send_secs : 2.790400
+	probe 46 sent	send_secs : 0.455972
+	probe 47 sent	send_secs : 0.561855
+	probe 48 sent	send_secs : 1.180153
+ * *	probe 49 sent	send_secs : 1.421666
+
+16  *	probe 50 sent	send_secs : 1.061526
+	probe 51 sent	send_secs : 0.220834
+	probe 52 sent	send_secs : 1.028416
+ * *	probe 53 sent	send_secs : 0.554524
+
+17  *	probe 54 sent	send_secs : 0.804507
+ *	probe 55 sent	send_secs : 0.175841
+	probe 56 sent	send_secs : 0.202226
+	probe 57 sent	send_secs : 5.932654
+ *
+18  * * *
+19  * * *
+20  *	probe 58 sent	send_secs : 2.444296
+	probe 59 sent	send_secs : 3.222283
+ *	probe 60 sent	send_secs : 0.107295
+	probe 61 sent	send_secs : 2.011442
+ *	probe 62 sent	send_secs : 2.880616
+
+21  *	probe 63 sent	send_secs : 2.672134
+ * *	probe 64 sent	send_secs : 1.750567
+	probe 65 sent	send_secs : 0.076247
+	probe 66 sent	send_secs : 0.047497
+	probe 67 sent	send_secs : 1.283770
+
+22  *	probe 68 sent	send_secs : 3.232655
+ *	probe 69 sent	send_secs : 3.574643
+ *
+23  * * *	probe 70 sent	send_secs : 1.822755
+
+24  *	probe 71 sent	send_secs : 6.071364
+ * *	probe 72 sent	send_secs : 2.482356
+	probe 73 sent	send_secs : 1.468778
+	probe 74 sent	send_secs : 0.214868
+	probe 75 sent	send_secs : 2.868260
+
+25  *	probe 76 sent	send_secs : 0.636057
+ *	probe 77 sent	send_secs : 0.729786
+	probe 78 sent	send_secs : 0.013233
+	probe 79 sent	send_secs : 2.532640
+ *
+26  *	probe 80 sent	send_secs : 3.369338
+ * *
+27  * *	probe 81 sent	send_secs : 1.084077
+	probe 82 sent	send_secs : 3.459512
+ *	probe 83 sent	send_secs : 0.488020
+
+28  *	probe 84 sent	send_secs : 2.161049
+ *	probe 85 sent	send_secs : 0.334144
+	probe 86 sent	send_secs : 0.715312
+	probe 87 sent	send_secs : 2.827343
+ *
+29  *	probe 88 sent	send_secs : 0.215993
+	probe 89 sent	send_secs : 0.012216
+ * *
+30  * * *
+91 packets sent , 33 packets recieved
+the time intervals between each sending pobes :
+0.598519 
+1.740545 0.040856 0.746352 1.839884 5.674296 1.345539 
+1.479541 0.532846 0.977533 0.143511 3.197412 8.000000 
+0.378346 3.544444 0.110938 0.431830 2.365066 0.727401 
+0.365268 2.150715 4.474732 3.547448 0.514046 2.292291 
+3.848638 1.921107 1.941689 2.435951 0.219018 5.284973 
+6.583148 2.309658 5.953307 0.641129 0.674715 4.422646 
+2.887570 3.312253 0.265531 0.326415 4.213452 5.106495 
+0.324817 0.104105 2.790400 0.455972 0.561855 1.180153 
+1.421666 1.061526 0.220834 1.028416 0.554524 0.804507 
+0.175841 0.202226 5.932654 2.444296 3.222283 0.107295 
+2.011442 2.880616 2.672134 1.750567 0.076247 0.047497 
+1.283770 3.232655 3.574643 1.822755 6.071364 2.482356 
+1.468778 0.214868 2.868260 0.636057 0.729786 0.013233 
+2.532640 3.369338 1.084077 3.459512 0.488020 2.161049 
+0.334144 0.715312 2.827343 0.215993 0.012216 0.000000 

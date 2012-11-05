@@ -1,0 +1,14 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head><title>simple page</title></head>
+  <body>
+    <h1 id="header">This is JavaScript1</h1>
+    <script type="text/javascript">
+      document.body.appendChild(document.createTextNode('Hello World!'));
+      var h1 = document.getElementById("header"); // holds a reference to the <h1> tag
+      h1 = document.getElementsByTagName("h1")[0]; // accessing the same <h1> element
+    </script>
+    <noscript>Your browser either does not support JavaScript, or has JavaScript turned off.</noscript>
+  </body>
+</html>

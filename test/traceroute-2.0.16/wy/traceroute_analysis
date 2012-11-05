@@ -1,0 +1,67 @@
+traceroute.h 里面定义了两个 struct ，
+ common_sockaddr probe ( probe_struct),  
+tr_module (tr_module_struct)
+ 
+static const char *module = "default"   (在 traceroute.c  中 定义）
+
+time.c里面实现,   get_time(),  返回的是double型，  在 traceroute.h 里面声明
+
+moudle.c 里面定义了 static 全局变量  static tr_module * base = NULL
+和两个函数   void tr_register_module (tr_module * ops)
+          const tr_module * tr_get_module(const char *name) 
+
+tr_module 这个 struct 定义在 traceroute.h 中，  这是一个链表的 struct 
+
+const char *name;
+ 39         int (*init) (const sockaddr_any *dest,
+ 40                                 unsigned int port_seq, size_t *packet_len);  //这里定义了4个函数指针
+ 41         void (*send_probe) (probe *pb, int ttl);
+ 42         void (*recv_probe) (int fd, int revents);
+ 43         void (*expire_probe) (probe *pb);  
+
+里面主要是 一个  name , 和  4 个函数指针，都用到了 probe
+
+poll.c里面的几个函数是用来做什么的？？
+
+extension.c里面，有两个结构  icmp_ext_header 和  icmp_ext_object 和两个函数 try_extension(),  handle_extensions()
+
+handle_extensions() 被 traceroute.c 中定义的  recv_reply() 的最后处 调用
+
+而 recv_reply() 只是被各个 module 里面的 .._recv_probe()  所调用了
+
+0 mod-icmp.c    icmp_recv_probe  185 recv_reply (sk, !!(revents & POLLERR), icmp_check_reply);
+1 mod-raw.c     raw_recv_probe   143 recv_reply (sk, !!(revents & POLLERR), raw_check_reply);
+2 mod-tcp.c     tcp_recv_probe   418 recv_reply (sk, !!(revents & POLLERR), tcp_check_reply);
+3 mod-tcpconn.c tcp_recv_probe   210 recv_reply (icmp_sk, 0, tcp_check_reply);
+4 mod-udp.c     udp_recv_probe   188 recv_reply (sk, !!(revents & POLLERR), udp_check_reply);
+
+96  static int as_lookups = 0;        in traceroute.c
+
+as_lookups.c 中实现了一个函数  const char *get_as_path (const char *query) (这里的 as 代表什么 ??)
+而 get_as_path() 这个函数也只在 print_addr(sockaddr_any * res) 的最后被调用（tracerotue.c)
+ 689         if (as_lookups)
+ 690                 printf (" [%s]", get_as_path (str));
+
+ 关于 TR_MODULE(MOD) 这个宏 的定义 (traceroute.h)中                                      ！！（这里，研究下这个宏是怎么样，很可能就是这个把 各个  mod-文件和 traceroute.c 联系起来的）
+101 static void __init_ ## MOD (void) __attribute__ ((constructor));        \
+102 static void __init_ ## MOD (void) {     \
+103                                 \
+104         tr_register_module (&MOD);      \
+105 }
+
+一个有4个 mod- 文件
+|-- mod-icmp.c
+|-- mod-raw.c
+|-- mod-tcp.c
+|-- mod-tcpconn.c
+|-- mod-udp.c
+这些文件的最后都定义了一个 tr_module   struct 
+然后再通过  TR_MODULE(..),  把这个 struct 放到 链表中
+实际上在整个程序中，只有TR_MODULE(MOD)这个宏用了
+
+recv_reply 这个函数 定义在 traceroute.c 中，
+ 1251 void recv_reply (int sk, int err, check_reply_t check_reply)
+而参数  check_reply_t 是定义在 traceroute.h 中的一个 函数指针
+ typedef probe *(*check_reply_t) (int sk, int err, sockaddr_any *from, char *buf, size_t len);
+
+

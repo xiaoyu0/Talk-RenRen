@@ -1,0 +1,61 @@
+set_host called, arg is www.renren.com
+quit print_addr without any print(addr is empty)
+ 60.29.242.220 (60.29.242.220)
+packet length : -1
+header length : 28
+data length   : 32
+opts_idx      : 1
+first hop     : 1
+probes_per_hop: 3
+num_probes    : 90
+dst_port_seq  : 0
+num_gateways  : 0
+send_secs     : 0.00
+opts[0]        : (null)
+traceroute to www.renren.com (60.29.242.220), 30 hops max, 60 byte packets
+ 1  121.49.86.1 (121.49.86.1)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  0.552 ms  1.087 ms  1.323 ms
+ 2  125.71.231.21 (125.71.231.21)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  0.305 ms  0.364 ms  0.410 ms
+ 3  125.71.230.33 (125.71.230.33)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  0.340 ms  0.383 ms  0.444 ms
+ 4  125.71.228.89 (125.71.228.89)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  0.433 ms  0.473 ms  0.525 ms
+ 5  202.98.100.17 (202.98.100.17)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  1.715 ms  2.200 ms  2.187 ms
+ 6  221.237.185.73 (221.237.185.73)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  2.378 ms  1.920 ms  2.212 ms
+ 7  221.237.185.21 (221.237.185.21)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  2.343 ms  2.327 ms  2.296 ms
+ 8  222.213.5.9 (222.213.5.9)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  2.062 ms  2.788 ms 222.213.14.153 (222.213.14.153)		CN	32	Sichuan	Chengdu	30.666700	104.066704
+  2.714 ms
+ 9  202.97.36.109 (202.97.36.109)		CN	N/A	N/A	N/A	35.000000	105.000000
+  16.445 ms  15.918 ms 202.97.36.6 (202.97.36.6)		CN	N/A	N/A	N/A	35.000000	105.000000
+  15.933 ms
+10  202.97.38.162 (202.97.38.162)		CN	N/A	N/A	N/A	35.000000	105.000000
+  26.044 ms 218.30.19.193 (218.30.19.193)		CN	22	Beijing	Beijing	39.928902	116.388298
+  16.672 ms  15.826 ms
+11  218.30.69.22 (218.30.69.22)		CN	22	Beijing	Beijing	39.928902	116.388298
+  17.054 ms  16.186 ms  16.022 ms
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+90 packets sent , 33 packets recieved
+num_sending2 is 90
