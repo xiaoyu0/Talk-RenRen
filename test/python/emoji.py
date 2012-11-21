@@ -107,7 +107,7 @@ for line in fp:
 fp.close()
 
 #所有的要去抓取的urls，还是写死了
-baseUrl = "http://punchdrunker.github.com/iOSEmoji/table_html/"
+baseUrl = "http://punchdrunker.github.com/iOSEmoji/table_html/ios6/"
 urlList = ["index.html", "flower.html", "bell.html", "vehicle.html", "number.html"]
 codeDict = dict() #用来保存每个网页新的条目的总和
 for url in urlList:
