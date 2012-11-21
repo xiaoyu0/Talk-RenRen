@@ -1,5 +1,0 @@
-server_id=0
-log_conf=/opt/talk/conf/msgWait_log4cplus.properties
-service_port=6111
-domain=talk.m.renren.com
-zk_servers=localhost:2181
