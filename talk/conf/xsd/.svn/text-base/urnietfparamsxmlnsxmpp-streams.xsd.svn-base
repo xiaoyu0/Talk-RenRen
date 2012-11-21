@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@auther jun.liu@renren-inc.com
+@description 聊天消息报文schema
+@date 2012-11-13
+ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns="urn:ietf:params:xml:ns:xmpp-streams" targetNamespace="urn:ietf:params:xml:ns:xmpp-streams">
+
+<xs:element name="text">
+	<xs:complexType>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+			</xs:extension>
+		</xs:simpleContent>
+ 	</xs:complexType>
+</xs:element>
+
+
+<xs:element name="xml-not-well-formed">
+	<xs:complexType>
+		<xs:choice>
+			<xs:element ref="text"/>
+		</xs:choice>
+ 	</xs:complexType>
+</xs:element>
+
+</xs:schema>

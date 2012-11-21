@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@auther jun.liu@renren-inc.com
+@description 聊天消息报文schema
+@date 2012-11-13
+ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns="http://jabber.org/protocol/muc" targetNamespace="http://jabber.org/protocol/muc">
+
+<xs:element name="invite">
+	<xs:complexType>
+		<xs:attribute name="to" type="xs:long"/>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="check">
+	<xs:complexType>
+		<xs:attribute name="to" type="xs:long"/>
+		<xs:attribute name="version" type="xs:integer"/>
+	</xs:complexType>
+</xs:element>
+
+
+<xs:element name="x" >
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element ref="invite" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

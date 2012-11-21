@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/wap/!svn/ver/116501/renren/renren-wap-talk/trunk/src/talk
+END
+MsgNode.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/101801/renren/renren-wap-talk/trunk/src/talk/MsgNode.h
+END
+FeedProcessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/111102/renren/renren-wap-talk/trunk/src/talk/FeedProcessor.cpp
+END
+Router2TalkServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/102198/renren/renren-wap-talk/trunk/src/talk/Router2TalkServer.cpp
+END
+TalkSessionListener.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/111513/renren/renren-wap-talk/trunk/src/talk/TalkSessionListener.cpp
+END
+TalkXmppRequestHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/talk/TalkXmppRequestHandler.cpp
+END
+Router2TalkServiceI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/97571/renren/renren-wap-talk/trunk/src/talk/Router2TalkServiceI.cpp
+END
+FeedProcessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/104368/renren/renren-wap-talk/trunk/src/talk/FeedProcessor.h
+END
+UserBuffer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/108292/renren/renren-wap-talk/trunk/src/talk/UserBuffer.cpp
+END
+UserManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/113611/renren/renren-wap-talk/trunk/src/talk/UserManager.cpp
+END
+Router2TalkServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/102076/renren/renren-wap-talk/trunk/src/talk/Router2TalkServer.h
+END
+TalkSessionListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wap/!svn/ver/98336/renren/renren-wap-talk/trunk/src/talk/TalkSessionListener.h
+END
+OnlineStatManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/110090/renren/renren-wap-talk/trunk/src/talk/OnlineStatManager.cpp
+END
+TalkXmppRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/talk/TalkXmppRequestHandler.h
+END
+Router2TalkServiceI.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/101481/renren/renren-wap-talk/trunk/src/talk/Router2TalkServiceI.h
+END
+UserBuffer.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/108292/renren/renren-wap-talk/trunk/src/talk/UserBuffer.h
+END
+SessionManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/98336/renren/renren-wap-talk/trunk/src/talk/SessionManager.cpp
+END
+UserManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/98336/renren/renren-wap-talk/trunk/src/talk/UserManager.h
+END
+OnlineStatManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/98336/renren/renren-wap-talk/trunk/src/talk/OnlineStatManager.h
+END
+TalkServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/114922/renren/renren-wap-talk/trunk/src/talk/TalkServer.cpp
+END
+Session.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/113401/renren/renren-wap-talk/trunk/src/talk/Session.cpp
+END
+SessionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/116501/renren/renren-wap-talk/trunk/src/talk/SessionManager.h
+END
+SessionManagerListener.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/wap/!svn/ver/90759/renren/renren-wap-talk/trunk/src/talk/SessionManagerListener.cpp
+END
+TalkServiceI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/113617/renren/renren-wap-talk/trunk/src/talk/TalkServiceI.cpp
+END
+TalkServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/111513/renren/renren-wap-talk/trunk/src/talk/TalkServer.h
+END
+I18nTranslateServiceI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/wap/!svn/ver/103120/renren/renren-wap-talk/trunk/src/talk/I18nTranslateServiceI.cpp
+END
+Session.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/101801/renren/renren-wap-talk/trunk/src/talk/Session.h
+END
+SessionManagerListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/98336/renren/renren-wap-talk/trunk/src/talk/SessionManagerListener.h
+END
+TalkServiceI.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/103755/renren/renren-wap-talk/trunk/src/talk/TalkServiceI.h
+END
+I18nTranslateServiceI.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/102451/renren/renren-wap-talk/trunk/src/talk/I18nTranslateServiceI.h
+END
+SessionListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/98336/renren/renren-wap-talk/trunk/src/talk/SessionListener.h
+END

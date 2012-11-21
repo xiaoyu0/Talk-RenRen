@@ -1,0 +1,10 @@
+#!/bin/sh
+TALK_HOME=/opt/talk
+TALK_LOG_PATH=/data/server_log/logs/talk
+mkdir -p $TALK_LOG_PATH
+ulimit -SHn 65535
+export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/opt/Ice-3.3/lib64
+exec $TALK_HOME/bin/talk \
+1>>$TALK_LOG_PATH/talk_stdout.log \
+2>>$TALK_LOG_PATH/talk_stderr.log
+

@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@auther jun.liu@renren-inc.com
+@description 聊天消息报文schema
+@date 2012-11-13
+ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns:stream="http://etherx.jabber.org/streams">
+<xs:import schemaLocation="muc.xsd" namespace="http://jabber.org/protocol/muc" />
+<xs:import schemaLocation="muc#user.xsd" namespace="http://jabber.org/protocol/muc#user" />
+<xs:import schemaLocation="muc#owner.xsd" namespace="http://jabber.org/protocol/muc#owner" />
+<xs:import schemaLocation="urnietfparamsxmlnsxmpp-sasl.xsd" namespace="urn:ietf:params:xml:ns:xmpp-sasl" />
+<xs:import schemaLocation="urnietfparamsxmlnsxmpp-streams.xsd" namespace="urn:ietf:params:xml:ns:xmpp-streams" />
+<xs:import schemaLocation="streams.xsd" namespace="http://etherx.jabber.org/streams" />
+
+
+<!-- message相关属性 -->
+<xs:attribute name="from" type="xs:string"/>
+<xs:attribute name="to" type="xs:string"/>
+<xs:attribute name="cc" type="xs:string"/>
+<xs:attribute name="fname" type="xs:string"/>
+<xs:attribute name="msgkey" type="xs:long"/>
+<xs:attribute name="feed" type="xs:boolean"/>
+<!-- 图片相关属性 -->
+<xs:attribute name="mine_type" type="xs:string"/>
+<xs:attribute name="tiny" type="xs:string"/>
+<xs:attribute name="main" type="xs:string"/>
+<xs:attribute name="large" type="xs:string"/>
+<!-- 语音相关属性-->
+<xs:attribute name="url" type="xs:string"/>
+<xs:attribute name="fullurl" type="xs:string"/>
+<xs:attribute name="filename" type="xs:string"/>
+
+<!-- -->
+<xs:simpleType name="messageType">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="chat"/>
+		<xs:enumeration value="groupchat"/>
+		<xs:enumeration value="personal"/>
+		<xs:enumeration value="system"/>
+		<xs:enumeration value="normal"/>
+		<xs:enumeration value="info"/>
+		<xs:enumeration value="notify"/>
+		<xs:enumeration value="result"/>
+		<xs:enumeration value="alert"/>
+		<xs:enumeration value="EOOM"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="presenceType">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="unavailable"/>
+		<xs:enumeration value="error"/>
+		<xs:enumeration value="result"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="iqType">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="set"/>
+		<xs:enumeration value="result"/>
+		<xs:enumeration value="get"/>
+		<xs:enumeration value="error"/>
+	</xs:restriction>
+</xs:simpleType>
+<!-- -->
+<xs:simpleType name="bodyType">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="text"/>
+		<xs:enumeration value="voice"/>
+		<xs:enumeration value="image"/>
+		<xs:enumeration value="expression"/>
+		<xs:enumeration value="action"/>
+	</xs:restriction>
+</xs:simpleType>
+
+
+
+<xs:simpleType name="actionEnum">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="typing"/>
+		<xs:enumeration value="speeking"/>
+		<xs:enumeration value="canceled"/>
+	</xs:restriction>
+</xs:simpleType>
+
+
+<xs:simpleType name="booleanEnum">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="true"/>
+		<xs:enumeration value="false"/>
+		<xs:enumeration value="flase"/>
+	</xs:restriction>
+</xs:simpleType>
+
+
+<!-- 文本类型-->
+<xs:complexType name="textType">
+	<xs:simpleContent>
+		<xs:extension base="xs:string">
+		</xs:extension>
+	</xs:simpleContent>
+</xs:complexType>
+<xs:complexType name="longType">
+	<xs:simpleContent>
+		<xs:extension base="xs:long">
+		</xs:extension>
+	</xs:simpleContent>
+</xs:complexType>
+
+<!-- 图片节点-->
+<xs:element name="image">
+	<xs:complexType>
+		<xs:attribute ref="mine_type" use="required"/>
+		<xs:attribute ref="tiny" use="required"/>
+		<xs:attribute ref="main" use="required"/>
+		<xs:attribute ref="large" use="required"/>
+	</xs:complexType>
+</xs:element>
+
+<!-- 语音节点-->
+<xs:element name="audio">
+	<xs:complexType>
+		<xs:attribute ref="mine_type"/>
+		<xs:attribute ref="url" use="required"/>
+		<xs:attribute ref="fullurl" use="required"/>
+		<xs:attribute ref="filename" use="required"/>
+		<xs:attribute name="playtime" type="xs:integer"/>
+		<xs:attribute name="mode" type="xs:string"/>
+		<xs:attribute name="seqid" type="xs:integer"/>
+		<xs:attribute name="vid" type="xs:string"/>
+	</xs:complexType>
+</xs:element>
+
+
+<xs:complexType name="messageBody">
+	<xs:choice  minOccurs="0">
+		<xs:element name="text" type="textType" />
+		<xs:element name="expression" type="textType" /> 
+		<xs:element ref="image"/> 		
+		<xs:element ref="audio"/> 
+	</xs:choice>
+	<xs:attribute name="type" type="bodyType" use="required"/>
+	<xs:attribute name="action" type="actionEnum" />
+	<xs:attribute name="version" type="xs:integer" />
+</xs:complexType>
+
+<!-- Feed节点 -->
+<xs:element name="feed">
+	<xs:complexType>
+		<xs:attribute name="id" type="xs:long" use="required"/>
+		<xs:attribute name="isfocus" type="xs:boolean"/>
+		<xs:attribute name="type" type="xs:integer"/>
+		<xs:attribute name="source_id" type="xs:long"/>
+		<xs:attribute name="reply_id" type="xs:long"/>
+		<xs:attribute name="reply_content" type="xs:string"/>
+		<xs:attribute name="user_name" type="xs:string"/>
+		<xs:attribute name="video" type="xs:string"/>
+		<xs:attribute name="description" type="xs:string"/>
+		<xs:attribute name="placename" type="xs:string"/>
+		<xs:attribute name="forward_line" type="booleanEnum"/>
+		<xs:attribute name="original_name" type="xs:string"/>
+		<xs:attribute name="original_descrip" type="xs:string"/>
+		<xs:attribute name="summary" type="xs:string"/>
+		<xs:attribute name="photo1_url_s" type="xs:anyURI"/>
+		<xs:attribute name="photo1_url_m" type="xs:anyURI"/>
+		<xs:attribute name="photo1_url_l" type="xs:anyURI"/>
+		<xs:attribute name="photo2_url_s" type="xs:anyURI"/>
+		<xs:attribute name="photo2_url_m" type="xs:anyURI"/>
+		<xs:attribute name="photo2_url_l" type="xs:anyURI"/>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="error">
+	<xs:complexType>
+		<xs:attribute name="type" type="xs:string" use="required"/>
+		<xs:attribute name="code" type="xs:integer" use="required"/>
+		<xs:attribute name="msg" type="xs:string" use="required"/>
+	</xs:complexType>
+</xs:element>
+
+<!-- 主题 -->
+<xs:element name="subject">
+	<xs:complexType>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="version" type="xs:integer"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="x">
+	<xs:complexType>
+		<xs:all>
+			<xs:element ref="subject"/>
+		</xs:all>
+		<xs:attribute name="version" type="xs:integer"/>	
+	</xs:complexType>
+</xs:element>
+
+<!-- message节 -->
+<xs:element name="message">
+	<xs:complexType>
+		<xs:choice minOccurs="0" maxOccurs="unbounded">
+			<xs:element name="body" type="messageBody"/>
+			<xs:element ref="feed"/>
+			<xs:element ref="error"/>
+			<xs:element ref="subject"/>
+			<xs:element ref="x"/>
+			<xs:element name="time" type="longType"/>
+			<xs:element name="action">
+				<xs:complexType>
+					<xs:all>
+						<xs:element name="body" type="messageBody"/>
+					</xs:all>
+					<xs:attribute name="type" type="xs:string" fixed="terminate"/>
+				</xs:complexType>
+			</xs:element>
+			<!-- notify 节点-->
+			<xs:element name="Id" type="textType" />
+			<xs:element name="type" type="textType"/>
+			<xs:element name="subtype" type="textType"/>
+			<xs:element name="user_id" type="textType"/>
+			<xs:element name="user_name" type="textType"/>
+			<xs:element name="head_url" type="textType"/>
+			<xs:element name="source_id" type="textType"/>
+			<xs:element name="owner_id" type="textType"/>
+			<xs:element name="owner_name" type="textType"/>
+			<xs:element name="prefix" type="textType"/>
+			<xs:element name="title1" type="textType"/>
+			<xs:element name="sufix" type="textType"/>
+			<xs:element name="latest" type="textType"/>
+			<xs:element name="user_count" type="textType"/>
+			<xs:element name="brief" type="textType"/>
+			<xs:element name="shareCount" type="textType"/>
+		</xs:choice>
+		<xs:attribute ref="from" />
+		<xs:attribute ref="to" />
+		<xs:attribute name="type" type="messageType"/>
+		<xs:attribute ref="cc" />
+		<xs:attribute ref="fname"/>
+		<xs:attribute ref="msgkey"/>
+		<xs:attribute ref="feed"/>
+		<xs:attribute name="id" type="xs:string"/>
+		<xs:attribute name="time" type="xs:long"/>
+		<xs:attribute name="offline" type="xs:boolean"/>
+		<xs:attribute name="withSMS" type="xs:boolean"/>
+		<xs:attribute name="withStat" type="xs:boolean"/>
+		<!-- notify 属性-->
+		<xs:attribute name="fromId" type="xs:long"/>
+		<xs:attribute name="toId" type="xs:long"/>
+	</xs:complexType>
+</xs:element>
+
+<!-- iq节 -->
+<xs:element name="iq">
+	<xs:complexType>
+		<xs:choice minOccurs="0" maxOccurs="1">
+			<xs:element xmlns="http://jabber.org/protocol/muc#owner"  ref="query" />						
+			<xs:element xmlns="http://jabber.org/protocol/muc#user"  ref="query" />
+			<xs:element ref="error"/>
+		</xs:choice>
+		<xs:attribute ref="from" />
+		<xs:attribute ref="to" />
+		<xs:attribute name="id" type="xs:string"/>
+		<xs:attribute name="type" type="iqType"/>
+	</xs:complexType>
+</xs:element>
+
+<!-- presence节 -->
+
+<xs:element name="presence">
+	<xs:complexType>
+		<xs:choice minOccurs="0">
+			<xs:element xmlns="http://jabber.org/protocol/muc"  ref="x" />
+			<xs:element xmlns="http://jabber.org/protocol/muc#user"  ref="x" />
+		</xs:choice>
+		<xs:attribute ref="from" />
+		<xs:attribute ref="to" />
+		<xs:attribute name="id" type="xs:string"/>
+		<xs:attribute name="type" type="presenceType"/>
+	</xs:complexType>
+</xs:element>
+
+<!-- bosh协议body -->
+<xs:element name="body">
+	<xs:complexType>
+		<xs:choice minOccurs="0" maxOccurs="1">
+			<xs:element ref="message"/>
+			<xs:element ref="presence"/>
+			<xs:element ref="iq"/>
+			<xs:element ref="success"/>
+			<xs:element ref="ack"/>
+		</xs:choice>
+		<xs:attribute name="sid" type="xs:string"/>
+		<xs:attribute name="type" type="xs:string"/>
+		<xs:attribute name="ack" type="xs:string"/>
+	</xs:complexType>
+</xs:element>
+
+
+<!-- success-->
+<xs:element name="success">
+	<xs:complexType>
+		<xs:attribute name="sid" type="xs:string"/>
+	</xs:complexType>
+</xs:element>
+
+
+<!-- ack -->
+<xs:element name="ack">
+	<xs:complexType>
+		<xs:attribute name="msgkey" type="xs:long"/>
+	</xs:complexType>
+</xs:element>
+<xs:element name="heartbeat">
+	<xs:complexType>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="close">
+	<xs:complexType>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="response">
+	<xs:complexType>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+			</xs:extension>
+		</xs:simpleContent>
+ 	</xs:complexType>
+</xs:element>
+
+
+</xs:schema>

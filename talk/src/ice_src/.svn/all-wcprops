@@ -1,0 +1,485 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/wap/!svn/ver/111513/renren/renren-wap-talk/trunk/src/ice_src
+END
+I18nTranslate.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/99931/renren/renren-wap-talk/trunk/src/ice_src/I18nTranslate.h
+END
+RoomService.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/105229/renren/renren-wap-talk/trunk/src/ice_src/RoomService.h
+END
+TalkProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/98273/renren/renren-wap-talk/trunk/src/ice_src/TalkProxy.h
+END
+pusher.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/pusher.cpp
+END
+MucService.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/98273/renren/renren-wap-talk/trunk/src/ice_src/MucService.h
+END
+registerService.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/registerService.h
+END
+userInfoService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/userInfoService.cpp
+END
+IMGateForPhone.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/108292/renren/renren-wap-talk/trunk/src/ice_src/IMGateForPhone.h
+END
+TalkService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/103755/renren/renren-wap-talk/trunk/src/ice_src/TalkService.cpp
+END
+miscService.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/102749/renren/renren-wap-talk/trunk/src/ice_src/miscService.h
+END
+miscellaneousService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/wap/!svn/ver/101743/renren/renren-wap-talk/trunk/src/ice_src/miscellaneousService.cpp
+END
+Router.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/98273/renren/renren-wap-talk/trunk/src/ice_src/Router.h
+END
+RFeed.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/RFeed.cpp
+END
+searchService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/searchService.cpp
+END
+recommendService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/recommendService.cpp
+END
+MessageWaitManagerService.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/wap/!svn/ver/108455/renren/renren-wap-talk/trunk/src/ice_src/MessageWaitManagerService.h
+END
+ImOnlineAdapterService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/wap/!svn/ver/98928/renren/renren-wap-talk/trunk/src/ice_src/ImOnlineAdapterService.cpp
+END
+I18nTranslate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/99931/renren/renren-wap-talk/trunk/src/ice_src/I18nTranslate.cpp
+END
+RoomService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/105229/renren/renren-wap-talk/trunk/src/ice_src/RoomService.cpp
+END
+TalkProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/src/ice_src/TalkProxy.cpp
+END
+loginService.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/loginService.h
+END
+relationService.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wap/!svn/ver/101173/renren/renren-wap-talk/trunk/src/ice_src/relationService.h
+END
+MucService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/84858/renren/renren-wap-talk/trunk/src/ice_src/MucService.cpp
+END
+Utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/98273/renren/renren-wap-talk/trunk/src/ice_src/Utils.h
+END
+registerService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/registerService.cpp
+END
+IMGateForPhone.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/108292/renren/renren-wap-talk/trunk/src/ice_src/IMGateForPhone.cpp
+END
+bindThirdPartyService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/bindThirdPartyService.cpp
+END
+base.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/base.cpp
+END
+OfflineMsgService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/111513/renren/renren-wap-talk/trunk/src/ice_src/OfflineMsgService.cpp
+END
+pusher.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/pusher.h
+END
+BoshService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/98273/renren/renren-wap-talk/trunk/src/ice_src/BoshService.cpp
+END
+TalkService.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/103755/renren/renren-wap-talk/trunk/src/ice_src/TalkService.h
+END
+accountService.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/accountService.h
+END
+Util.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wap/!svn/ver/98273/renren/renren-wap-talk/trunk/src/ice_src/Util.h
+END
+shorturl.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/shorturl.cpp
+END
+MessageWaitManagerService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/wap/!svn/ver/108455/renren/renren-wap-talk/trunk/src/ice_src/MessageWaitManagerService.cpp
+END
+miscellaneousService.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/wap/!svn/ver/101743/renren/renren-wap-talk/trunk/src/ice_src/miscellaneousService.h
+END
+loginService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/loginService.cpp
+END
+IMStorm.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/44468/renren/renren-wap-talk/trunk/src/ice_src/IMStorm.cpp
+END
+remote_logger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/47366/renren/renren-wap-talk/trunk/src/ice_src/remote_logger.cpp
+END
+searchService.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/searchService.h
+END
+recommendService.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/recommendService.h
+END
+ImOnlineAdapterService.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/wap/!svn/ver/99788/renren/renren-wap-talk/trunk/src/ice_src/ImOnlineAdapterService.h
+END
+TalkCommon.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/src/ice_src/TalkCommon.cpp
+END
+history.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/103317/renren/renren-wap-talk/trunk/src/ice_src/history.h
+END
+EndpointService.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/98273/renren/renren-wap-talk/trunk/src/ice_src/EndpointService.h
+END
+bindThirdPartyService.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/bindThirdPartyService.h
+END
+accountService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/accountService.cpp
+END
+Util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/src/ice_src/Util.cpp
+END
+SocketService.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/98273/renren/renren-wap-talk/trunk/src/ice_src/SocketService.h
+END
+OfflineMsgService.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/111513/renren/renren-wap-talk/trunk/src/ice_src/OfflineMsgService.h
+END
+base.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/base.h
+END
+token.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/token.cpp
+END
+BoshService.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/98273/renren/renren-wap-talk/trunk/src/ice_src/BoshService.h
+END
+undisturb.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/undisturb.h
+END
+errorCode.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/errorCode.cpp
+END
+pushMsg.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/pushMsg.cpp
+END
+promotion.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/87939/renren/renren-wap-talk/trunk/src/ice_src/promotion.cpp
+END
+shorturl.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/shorturl.h
+END
+ImCommandService.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/100531/renren/renren-wap-talk/trunk/src/ice_src/ImCommandService.h
+END
+shortDomain.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/ice_src/shortDomain.h
+END
+remote_logger.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/98273/renren/renren-wap-talk/trunk/src/ice_src/remote_logger.h
+END
+IMStorm.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/98273/renren/renren-wap-talk/trunk/src/ice_src/IMStorm.h
+END
+EndpointService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/47655/renren/renren-wap-talk/trunk/src/ice_src/EndpointService.cpp
+END
+history.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/103317/renren/renren-wap-talk/trunk/src/ice_src/history.cpp
+END
+SocketService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/86254/renren/renren-wap-talk/trunk/src/ice_src/SocketService.cpp
+END
+TalkCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/98273/renren/renren-wap-talk/trunk/src/ice_src/TalkCommon.h
+END
+miscService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/102749/renren/renren-wap-talk/trunk/src/ice_src/miscService.cpp
+END
+undisturb.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/undisturb.cpp
+END
+userInfoService.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/userInfoService.h
+END
+Router.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/96577/renren/renren-wap-talk/trunk/src/ice_src/Router.cpp
+END
+ImCommandService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/100531/renren/renren-wap-talk/trunk/src/ice_src/ImCommandService.cpp
+END
+token.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/token.h
+END
+shortDomain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/ice_src/shortDomain.cpp
+END
+errorCode.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/101343/renren/renren-wap-talk/trunk/src/ice_src/errorCode.h
+END
+RFeed.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/RFeed.h
+END
+pushMsg.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/98298/renren/renren-wap-talk/trunk/src/ice_src/pushMsg.h
+END
+promotion.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/87939/renren/renren-wap-talk/trunk/src/ice_src/promotion.h
+END
+relationService.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/101173/renren/renren-wap-talk/trunk/src/ice_src/relationService.cpp
+END
+Utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/41433/renren/renren-wap-talk/trunk/src/ice_src/Utils.cpp
+END

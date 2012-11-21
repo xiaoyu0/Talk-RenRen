@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/wap/!svn/ver/116130/renren/renren-wap-talk/trunk/src/endpoint2
+END
+TagParserManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/86647/renren/renren-wap-talk/trunk/src/endpoint2/TagParserManager.h
+END
+EndpointServer2.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/116130/renren/renren-wap-talk/trunk/src/endpoint2/EndpointServer2.cpp
+END
+StreamHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/99330/renren/renren-wap-talk/trunk/src/endpoint2/StreamHandler.cpp
+END
+EndpointServiceI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/endpoint2/EndpointServiceI.cpp
+END
+Tag.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/89991/renren/renren-wap-talk/trunk/src/endpoint2/Tag.cpp
+END
+EndpointServer2.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/100831/renren/renren-wap-talk/trunk/src/endpoint2/EndpointServer2.h
+END
+SocketIoHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/100831/renren/renren-wap-talk/trunk/src/endpoint2/SocketIoHandler.cpp
+END
+StreamHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/endpoint2/StreamHandler.h
+END
+XMPPTagHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/115927/renren/renren-wap-talk/trunk/src/endpoint2/XMPPTagHandler.cpp
+END
+EndpointServiceI.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/endpoint2/EndpointServiceI.h
+END
+Tag.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/86242/renren/renren-wap-talk/trunk/src/endpoint2/Tag.h
+END
+SocketIoHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/74523/renren/renren-wap-talk/trunk/src/endpoint2/SocketIoHandler.h
+END
+TagParserManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/86647/renren/renren-wap-talk/trunk/src/endpoint2/TagParserManager.cpp
+END
+XMPPTagHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/100831/renren/renren-wap-talk/trunk/src/endpoint2/XMPPTagHandler.h
+END

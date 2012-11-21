@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/wap/!svn/ver/117622/renren/renren-wap-talk/trunk/src/xmpp
+END
+StreamProcessHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/StreamProcessHandler.h
+END
+StreamErrorFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/StreamErrorFactory.cpp
+END
+TalkXMPPProcessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/TalkXMPPProcessor.cpp
+END
+StreamErrorFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/StreamErrorFactory.h
+END
+OfflinePresenceProcessHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/wap/!svn/ver/98080/renren/renren-wap-talk/trunk/src/xmpp/OfflinePresenceProcessHandler.cpp
+END
+PresenceRouter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/103060/renren/renren-wap-talk/trunk/src/xmpp/PresenceRouter.cpp
+END
+TalkXMPPProcessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/94699/renren/renren-wap-talk/trunk/src/xmpp/TalkXMPPProcessor.h
+END
+JID.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/wap/!svn/ver/104823/renren/renren-wap-talk/trunk/src/xmpp/JID.cpp
+END
+OfflinePresenceProcessHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/OfflinePresenceProcessHandler.h
+END
+PresenceRouter.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/PresenceRouter.h
+END
+IqRouter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/103060/renren/renren-wap-talk/trunk/src/xmpp/IqRouter.cpp
+END
+JID.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/wap/!svn/ver/99652/renren/renren-wap-talk/trunk/src/xmpp/JID.h
+END
+PacketRouter.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/PacketRouter.h
+END
+IqRouter.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/IqRouter.h
+END
+MsgTypeIqProcessHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/MsgTypeIqProcessHandler.cpp
+END
+ChatMessageProcessHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/wap/!svn/ver/117622/renren/renren-wap-talk/trunk/src/xmpp/ChatMessageProcessHandler.cpp
+END
+ProcessHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/ProcessHandler.h
+END
+ProcessResult.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/101266/renren/renren-wap-talk/trunk/src/xmpp/ProcessResult.h
+END
+XMPPProcessor.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/89984/renren/renren-wap-talk/trunk/src/xmpp/XMPPProcessor.cpp
+END
+MsgTypeIqProcessHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/MsgTypeIqProcessHandler.h
+END
+MessageRouter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/116968/renren/renren-wap-talk/trunk/src/xmpp/MessageRouter.cpp
+END
+ChatMessageProcessHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/wap/!svn/ver/114290/renren/renren-wap-talk/trunk/src/xmpp/ChatMessageProcessHandler.h
+END
+StreamProcessHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/StreamProcessHandler.cpp
+END
+XMPPProcessor.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/xmpp/XMPPProcessor.h
+END
+MessageRouter.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/116033/renren/renren-wap-talk/trunk/src/xmpp/MessageRouter.h
+END

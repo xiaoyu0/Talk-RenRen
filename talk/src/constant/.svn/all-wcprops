@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wap/!svn/ver/105709/renren/renren-wap-talk/trunk/src/constant
+END
+AuthType.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/96226/renren/renren-wap-talk/trunk/src/constant/AuthType.h
+END
+UserOnlineType.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wap/!svn/ver/105709/renren/renren-wap-talk/trunk/src/constant/UserOnlineType.h
+END
+MessageType.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/101612/renren/renren-wap-talk/trunk/src/constant/MessageType.h
+END
+ResultCode.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/100184/renren/renren-wap-talk/trunk/src/constant/ResultCode.h
+END

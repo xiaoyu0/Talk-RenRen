@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@auther jun.liu@renren-inc.com
+@description 聊天消息报文schema
+@date 2012-11-13
+ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns="urn:ietf:params:xml:ns:xmpp-sasl" targetNamespace="urn:ietf:params:xml:ns:xmpp-sasl">
+
+<xs:import schemaLocation="urnietfparamsxmlnsxmpp-streams.xsd" namespace="urn:ietf:params:xml:ns:xmpp-streams" />
+<xs:simpleType name="mechanismEnum">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="SECRET_KEY"/>
+		<xs:enumeration value="MAS_SECRET_KEY"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<!-- 认证过程 -->
+<xs:element name="auth">
+	<xs:complexType>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="mechanism" type="mechanismEnum"/>
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="mechanisms">
+	<xs:complexType>
+		<xs:choice>
+			<xs:element ref="mechanism"  minOccurs="1"/>
+		</xs:choice>
+ 	</xs:complexType>
+</xs:element>
+
+<xs:element name="mechanism">
+	<xs:complexType>
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+			</xs:extension>
+		</xs:simpleContent>
+ 	</xs:complexType>
+</xs:element>
+
+
+</xs:schema>

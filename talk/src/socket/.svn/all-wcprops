@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wap/!svn/ver/111550/renren/renren-wap-talk/trunk/src/socket
+END
+SocketSession.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/107047/renren/renren-wap-talk/trunk/src/socket/SocketSession.cpp
+END
+XMPPTagHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/89984/renren/renren-wap-talk/trunk/src/socket/XMPPTagHandler.cpp
+END
+SocketServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/111550/renren/renren-wap-talk/trunk/src/socket/SocketServer.cpp
+END
+SocketSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/101801/renren/renren-wap-talk/trunk/src/socket/SocketSession.h
+END
+SocketServiceI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/87338/renren/renren-wap-talk/trunk/src/socket/SocketServiceI.cpp
+END
+XMPPTagHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/socket/XMPPTagHandler.h
+END
+SocketServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/108292/renren/renren-wap-talk/trunk/src/socket/SocketServer.h
+END
+SocketServiceI.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/86578/renren/renren-wap-talk/trunk/src/socket/SocketServiceI.h
+END

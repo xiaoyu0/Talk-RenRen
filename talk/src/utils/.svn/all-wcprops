@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/wap/!svn/ver/115927/renren/renren-wap-talk/trunk/src/utils
+END
+UserIdUtil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/105152/renren/renren-wap-talk/trunk/src/utils/UserIdUtil.cpp
+END
+md5.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/md5.h
+END
+I18nTranslate.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/107903/renren/renren-wap-talk/trunk/src/utils/I18nTranslate.cpp
+END
+IceChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/IceChannel.h
+END
+WapIceChannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/WapIceChannel.cpp
+END
+SigCheckUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/SigCheckUtils.h
+END
+ZKUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/ZKUtils.h
+END
+SchemaErrorHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/114168/renren/renren-wap-talk/trunk/src/utils/SchemaErrorHandler.h
+END
+TalkSchemaValidater.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/114693/renren/renren-wap-talk/trunk/src/utils/TalkSchemaValidater.h
+END
+EmojiFilter.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/EmojiFilter.h
+END
+MessageTails.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/111105/renren/renren-wap-talk/trunk/src/utils/MessageTails.cpp
+END
+MsgTransform.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/111105/renren/renren-wap-talk/trunk/src/utils/MsgTransform.cpp
+END
+Base64Util.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/97572/renren/renren-wap-talk/trunk/src/utils/Base64Util.cpp
+END
+TimeUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/96835/renren/renren-wap-talk/trunk/src/utils/TimeUtils.h
+END
+md5.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/md5.cpp
+END
+XmlUtils.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/89991/renren/renren-wap-talk/trunk/src/utils/XmlUtils.h
+END
+IceChannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/105843/renren/renren-wap-talk/trunk/src/utils/IceChannel.cpp
+END
+MessageTypeUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/101801/renren/renren-wap-talk/trunk/src/utils/MessageTypeUtil.h
+END
+MyLogger.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/115254/renren/renren-wap-talk/trunk/src/utils/MyLogger.h
+END
+TTClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/112584/renren/renren-wap-talk/trunk/src/utils/TTClient.h
+END
+UserIdUtil.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/103682/renren/renren-wap-talk/trunk/src/utils/UserIdUtil.h
+END
+I18nTranslate.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/107478/renren/renren-wap-talk/trunk/src/utils/I18nTranslate.h
+END
+MyLock.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/MyLock.h
+END
+ZKUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/ZKUtils.cpp
+END
+WapIceChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/WapIceChannel.h
+END
+Singleton.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/src/utils/Singleton.h
+END
+Url.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/Url.h
+END
+IpAddr.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/IpAddr.hpp
+END
+TalkSchemaValidater.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/115927/renren/renren-wap-talk/trunk/src/utils/TalkSchemaValidater.cpp
+END
+SchemaErrorHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/114168/renren/renren-wap-talk/trunk/src/utils/SchemaErrorHandler.cpp
+END
+EmojiFilter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/utils/EmojiFilter.cpp
+END
+TimeUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/96835/renren/renren-wap-talk/trunk/src/utils/TimeUtils.cpp
+END
+XmlUtils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/89991/renren/renren-wap-talk/trunk/src/utils/XmlUtils.cpp
+END
+MessageTypeUtil.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wap/!svn/ver/115255/renren/renren-wap-talk/trunk/src/utils/MessageTypeUtil.cpp
+END
+MyLogger.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/115254/renren/renren-wap-talk/trunk/src/utils/MyLogger.cpp
+END
+MessageTails.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/101801/renren/renren-wap-talk/trunk/src/utils/MessageTails.h
+END
+TTClient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/112584/renren/renren-wap-talk/trunk/src/utils/TTClient.cpp
+END
+MsgTransform.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/102879/renren/renren-wap-talk/trunk/src/utils/MsgTransform.h
+END
+Base64Util.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/97572/renren/renren-wap-talk/trunk/src/utils/Base64Util.h
+END

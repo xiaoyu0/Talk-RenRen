@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@auther jun.liu@renren-inc.com
+@description 聊天消息报文schema
+@date 2012-11-13
+ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns="http://jabber.org/protocol/muc#owner" targetNamespace="http://jabber.org/protocol/muc#owner">
+
+<xs:simpleType name="affiliationType">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="outcast"/>		
+		<xs:enumeration value="none"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:element name="destory">
+  <xs:complexType>
+  </xs:complexType>
+</xs:element>
+
+<xs:element name="item">
+	<xs:complexType>
+		<xs:attribute name="nick" type="xs:integer"/>
+		<xs:attribute name="affiliation" type="affiliationType"/>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="query" >
+	<xs:complexType>
+		<xs:choice  minOccurs="0" maxOccurs="unbounded">
+			<xs:element ref="item" maxOccurs="unbounded"/>
+			<xs:element ref="destory" maxOccurs="1"/>
+		</xs:choice>
+		<xs:attribute name="version" type="xs:integer"/>
+	</xs:complexType>
+</xs:element>
+
+
+</xs:schema>

@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/wap/!svn/ver/56818/renren/renren-wap-talk/trunk/python
+END
+OnlineStatusService_ice.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/python/OnlineStatusService_ice.py
+END
+TalkClient.py
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/41804/renren/renren-wap-talk/trunk/python/TalkClient.py
+END
+TalkService_ice.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/python/TalkService_ice.py
+END
+Util_ice.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/python/Util_ice.py
+END
+TalkClientXmpp.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/41441/renren/renren-wap-talk/trunk/python/TalkClientXmpp.py
+END
+McsTools.py
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wap/!svn/ver/56818/renren/renren-wap-talk/trunk/python/McsTools.py
+END
+ClientVoice.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/53545/renren/renren-wap-talk/trunk/python/ClientVoice.py
+END
+StormSimulator.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/44468/renren/renren-wap-talk/trunk/python/StormSimulator.py
+END
+OnlineServiceSimulator.py
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/python/OnlineServiceSimulator.py
+END
+PressureClientSimulator.py
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/43282/renren/renren-wap-talk/trunk/python/PressureClientSimulator.py
+END
+IMStorm_ice.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/44468/renren/renren-wap-talk/trunk/python/IMStorm_ice.py
+END
+TalkClient2.py
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/44468/renren/renren-wap-talk/trunk/python/TalkClient2.py
+END
+TalkProxy_ice.py
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/python/TalkProxy_ice.py
+END
+Client.py
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/wap/!svn/ver/56818/renren/renren-wap-talk/trunk/python/Client.py
+END
+voiceFile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/wap/!svn/ver/53545/renren/renren-wap-talk/trunk/python/voiceFile
+END
+ClientSimulator.py
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/41892/renren/renren-wap-talk/trunk/python/ClientSimulator.py
+END
+Multipart.py
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/53545/renren/renren-wap-talk/trunk/python/Multipart.py
+END
+PressureTalkClient.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/43282/renren/renren-wap-talk/trunk/python/PressureTalkClient.py
+END
+TalkCommon_ice.py
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/python/TalkCommon_ice.py
+END
+IMGateForPhone_ice.py
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/python/IMGateForPhone_ice.py
+END

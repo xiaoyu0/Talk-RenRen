@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wap/!svn/ver/85314/renren/renren-wap-talk/trunk/src/pugixml
+END
+pugixml.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/src/pugixml/pugixml.cpp
+END
+pugixml.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/src/pugixml/pugixml.hpp
+END
+Tag.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/85314/renren/renren-wap-talk/trunk/src/pugixml/Tag.cpp
+END
+pugiconfig.hpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/40881/renren/renren-wap-talk/trunk/src/pugixml/pugiconfig.hpp
+END
+Tag.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/pugixml/Tag.h
+END

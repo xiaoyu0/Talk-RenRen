@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@auther jun.liu@renren-inc.com
+@description 聊天消息报文schema
+@date 2012-11-13
+ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"  xmlns="http://jabber.org/protocol/muc#user" targetNamespace="http://jabber.org/protocol/muc#user">
+
+<xs:simpleType name="affiliationType">
+	<xs:restriction base="xs:string">
+		<xs:enumeration value="owner"/>
+		<xs:enumeration value="member"/>
+		<xs:enumeration value="outcast"/>
+	</xs:restriction>
+</xs:simpleType>
+
+<xs:element name="invite">
+	<xs:complexType>
+		<xs:attribute name="to" type="xs:long"/>
+		<xs:attribute name="from" type="xs:string"/>
+		<xs:attribute name="totype" type="xs:string"/>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="destory">
+  <xs:complexType>
+  </xs:complexType>
+</xs:element>
+
+
+<!-- 主题 -->
+<xs:element name="subject" type="xs:string"/>
+
+<xs:element name="status">
+	<xs:complexType>
+		<xs:attribute name="code" type="xs:integer"/>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="actor">
+	<xs:complexType>
+		<xs:attribute name="nick" type="xs:integer"/>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="item">
+	<xs:complexType>
+		<xs:choice  minOccurs="0" maxOccurs="unbounded">
+			<xs:element ref="actor"/>
+		</xs:choice>
+		<xs:attribute name="affiliation" type="affiliationType"/>
+		<xs:attribute name="jid" type="xs:string"/>
+		<xs:attribute name="name" type="xs:string"/>
+		<xs:attribute name="url" type="xs:string"/>
+		<xs:attribute name="headurl" type="xs:string"/>
+		<xs:attribute name="isFriend" type="xs:boolean"/>
+		<xs:attribute name="rflag" type="xs:integer"/>
+	</xs:complexType>
+</xs:element>
+
+<xs:complexType name="contactItemType">
+	<xs:choice>
+		<xs:element ref="item" maxOccurs="unbounded"/>
+	</xs:choice>
+	<xs:attribute name="roomId" type="xs:string"/>
+	<xs:attribute name="rommname" type="xs:string"/>
+</xs:complexType>
+
+<xs:element name="check">
+	<xs:complexType>
+		<xs:attribute name="from" type="xs:long"/>
+		<xs:attribute name="update" type="xs:boolean"/>
+		<xs:attribute name="isMember" type="xs:string"/>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="contact">
+	<xs:complexType>
+		<xs:choice>
+			<xs:element name="contactItemType" maxOccurs="1"/>
+		</xs:choice>
+		<xs:attribute name="prefix" type="xs:string"/>
+		<xs:attribute name="type" type="xs:string"/>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="x" >
+	<xs:complexType>
+		<xs:choice maxOccurs="unbounded">
+			<xs:element ref="subject" maxOccurs="1"/>
+			<xs:element ref="item" maxOccurs="unbounded"/>
+			<xs:element ref="status" maxOccurs="unbounded"/>
+			<xs:element ref="invite" maxOccurs="unbounded"/>
+			<xs:element ref="check" maxOccurs="unbounded"/>
+			<xs:element ref="destory" maxOccurs="1"/>
+		</xs:choice>
+		<xs:attribute name="version" type="xs:integer"/>
+		<xs:attribute name="prefix" type="xs:string"/>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="query" >
+	<xs:complexType>
+		<xs:choice maxOccurs="unbounded">
+			<xs:element ref="subject" maxOccurs="1"/>
+			<xs:element ref="item" maxOccurs="unbounded"/>
+			<xs:element ref="destory" maxOccurs="1"/>
+			<xs:element ref="contact" maxOccurs="1"/>
+		</xs:choice>
+		<xs:attribute name="version" type="xs:integer"/>
+		<xs:attribute name="prefix" type="xs:string"/>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+@auther jun.liu@renren-inc.com
+@description 聊天消息报文schema
+@date 2012-11-13
+ -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://etherx.jabber.org/streams" targetNamespace="http://etherx.jabber.org/streams">
+<xs:import schemaLocation="urnietfparamsxmlnsxmpp-streams.xsd" namespace="urn:ietf:params:xml:ns:xmpp-streams" />
+<xs:import namespace="http://www.w3.org/XML/1998/namespace"/>
+
+<xs:element name="error">
+	<xs:complexType>
+		<xs:choice>
+			<xs:element xmlns="urn:ietf:params:xml:ns:xmpp-streams" ref="xml-not-well-formed"/>
+		</xs:choice>
+		<xs:attribute name="type" type="xs:string"/>
+ 	</xs:complexType>
+</xs:element>
+
+<xs:element name="stream">
+	<xs:complexType>
+		<xs:attribute name="c_appid" type="xs:integer"/>
+		<xs:attribute name="c_fromid" type="xs:integer"/>
+		<xs:attribute name="c_version" type="xs:string"/>
+		<xs:attribute name="online_deploy" type="xs:boolean"/>
+		<xs:attribute name="to" type="xs:string"/>
+		<xs:attribute name="v" type="xs:integer"/>
+		<xs:attribute name="version" type="xs:string"/>
+ 	</xs:complexType>
+</xs:element>
+
+
+</xs:schema>

@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/wap/!svn/ver/115337/renren/renren-wap-talk/trunk/src/proxy
+END
+SocketServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/107478/renren/renren-wap-talk/trunk/src/proxy/SocketServiceProxy.cpp
+END
+MucServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/98341/renren/renren-wap-talk/trunk/src/proxy/MucServiceProxy.h
+END
+SixinUserInfoProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/103520/renren/renren-wap-talk/trunk/src/proxy/SixinUserInfoProxy.h
+END
+RedisProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/101173/renren/renren-wap-talk/trunk/src/proxy/RedisProxy.h
+END
+TalkServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/107478/renren/renren-wap-talk/trunk/src/proxy/TalkServiceProxy.cpp
+END
+OfflineMsgServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/wap/!svn/ver/111513/renren/renren-wap-talk/trunk/src/proxy/OfflineMsgServiceProxy.h
+END
+RouterProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/101141/renren/renren-wap-talk/trunk/src/proxy/RouterProxy.cpp
+END
+RouterProxyManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wap/!svn/ver/97833/renren/renren-wap-talk/trunk/src/proxy/RouterProxyManager.h
+END
+BoshServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/98146/renren/renren-wap-talk/trunk/src/proxy/BoshServiceProxy.h
+END
+IceExceptionCounter.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/103682/renren/renren-wap-talk/trunk/src/proxy/IceExceptionCounter.h
+END
+Proxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/proxy/Proxy.h
+END
+HistoryServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/102748/renren/renren-wap-talk/trunk/src/proxy/HistoryServiceProxy.h
+END
+RelationServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/wap/!svn/ver/105124/renren/renren-wap-talk/trunk/src/proxy/RelationServiceProxy.cpp
+END
+MsgWaitServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/99330/renren/renren-wap-talk/trunk/src/proxy/MsgWaitServiceProxy.h
+END
+ImOnlineAdapterServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/wap/!svn/ver/98950/renren/renren-wap-talk/trunk/src/proxy/ImOnlineAdapterServiceProxy.h
+END
+BindServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/103682/renren/renren-wap-talk/trunk/src/proxy/BindServiceProxy.h
+END
+SixinUserInfoProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/103520/renren/renren-wap-talk/trunk/src/proxy/SixinUserInfoProxy.cpp
+END
+PushServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/99406/renren/renren-wap-talk/trunk/src/proxy/PushServiceProxy.h
+END
+MucServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wap/!svn/ver/107478/renren/renren-wap-talk/trunk/src/proxy/MucServiceProxy.cpp
+END
+RedisProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/98344/renren/renren-wap-talk/trunk/src/proxy/RedisProxy.cpp
+END
+EndpointServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/proxy/EndpointServiceProxy.h
+END
+ShortUrlServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/proxy/ShortUrlServiceProxy.h
+END
+OfflineMsgServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/wap/!svn/ver/115337/renren/renren-wap-talk/trunk/src/proxy/OfflineMsgServiceProxy.cpp
+END
+RouterProxyManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/108663/renren/renren-wap-talk/trunk/src/proxy/RouterProxyManager.cpp
+END
+BoshServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/107478/renren/renren-wap-talk/trunk/src/proxy/BoshServiceProxy.cpp
+END
+IceExceptionCounter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/104884/renren/renren-wap-talk/trunk/src/proxy/IceExceptionCounter.cpp
+END
+WapIceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/101362/renren/renren-wap-talk/trunk/src/proxy/WapIceProxy.h
+END
+SocketServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wap/!svn/ver/98146/renren/renren-wap-talk/trunk/src/proxy/SocketServiceProxy.h
+END
+TalkServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/101801/renren/renren-wap-talk/trunk/src/proxy/TalkServiceProxy.h
+END
+HistoryServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/107478/renren/renren-wap-talk/trunk/src/proxy/HistoryServiceProxy.cpp
+END
+RouterProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/98146/renren/renren-wap-talk/trunk/src/proxy/RouterProxy.h
+END
+SerialZKProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/proxy/SerialZKProxy.h
+END
+ProxyRegister.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/99423/renren/renren-wap-talk/trunk/src/proxy/ProxyRegister.h
+END
+ImOnlineAdapterServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/wap/!svn/ver/107568/renren/renren-wap-talk/trunk/src/proxy/ImOnlineAdapterServiceProxy.cpp
+END
+MsgWaitServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/107478/renren/renren-wap-talk/trunk/src/proxy/MsgWaitServiceProxy.cpp
+END
+BindServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/104884/renren/renren-wap-talk/trunk/src/proxy/BindServiceProxy.cpp
+END
+PushServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/107478/renren/renren-wap-talk/trunk/src/proxy/PushServiceProxy.cpp
+END
+EndpointServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/82565/renren/renren-wap-talk/trunk/src/proxy/EndpointServiceProxy.cpp
+END
+SimpleZKProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/proxy/SimpleZKProxy.h
+END
+ShortUrlServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/75507/renren/renren-wap-talk/trunk/src/proxy/ShortUrlServiceProxy.cpp
+END
+RelationServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/103682/renren/renren-wap-talk/trunk/src/proxy/RelationServiceProxy.h
+END

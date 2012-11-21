@@ -1,0 +1,5 @@
+server_id=0
+server_port=10086
+log_conf=/opt/talk/conf/ImOnlineAdapter_log4cplus.properties
+domain=muc.m.renren.com
+zk_servers=10.3.19.200:2182

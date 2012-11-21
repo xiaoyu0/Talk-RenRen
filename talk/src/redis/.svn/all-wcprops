@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/wap/!svn/ver/93056/renren/renren-wap-talk/trunk/src/redis
+END
+RedisClient.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/93056/renren/renren-wap-talk/trunk/src/redis/RedisClient.cpp
+END
+RedisReply.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/71363/renren/renren-wap-talk/trunk/src/redis/RedisReply.h
+END
+RedisClient.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/91200/renren/renren-wap-talk/trunk/src/redis/RedisClient.h
+END
+RedisClientPool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/72480/renren/renren-wap-talk/trunk/src/redis/RedisClientPool.cpp
+END
+RedisClientPool.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/72476/renren/renren-wap-talk/trunk/src/redis/RedisClientPool.h
+END

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/wap/!svn/ver/56818/renren/renren-wap-talk/trunk/script/svc/talk
+END
+run
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/48749/renren/renren-wap-talk/trunk/script/svc/talk/run
+END
+wrapper.py
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/56818/renren/renren-wap-talk/trunk/script/svc/talk/wrapper.py
+END

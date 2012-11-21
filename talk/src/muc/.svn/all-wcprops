@@ -1,0 +1,131 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/wap/!svn/ver/117147/renren/renren-wap-talk/trunk/src/muc
+END
+MucServiceI.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/86742/renren/renren-wap-talk/trunk/src/muc/MucServiceI.h
+END
+MucUser.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/116988/renren/renren-wap-talk/trunk/src/muc/MucUser.cpp
+END
+StanzaStringFactory.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wap/!svn/ver/103318/renren/renren-wap-talk/trunk/src/muc/StanzaStringFactory.h
+END
+MucRoom.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wap/!svn/ver/111342/renren/renren-wap-talk/trunk/src/muc/MucRoom.h
+END
+MucUser.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wap/!svn/ver/113758/renren/renren-wap-talk/trunk/src/muc/MucUser.h
+END
+RoomServiceProxy.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/116988/renren/renren-wap-talk/trunk/src/muc/RoomServiceProxy.cpp
+END
+MucErrorMessage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/103318/renren/renren-wap-talk/trunk/src/muc/MucErrorMessage.cpp
+END
+RoomServiceProxy.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/113758/renren/renren-wap-talk/trunk/src/muc/RoomServiceProxy.h
+END
+JID.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/wap/!svn/ver/99293/renren/renren-wap-talk/trunk/src/muc/JID.cpp
+END
+Packet.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/103318/renren/renren-wap-talk/trunk/src/muc/Packet.cpp
+END
+MucHint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/117147/renren/renren-wap-talk/trunk/src/muc/MucHint.cpp
+END
+MucErrorMessage.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/104540/renren/renren-wap-talk/trunk/src/muc/MucErrorMessage.h
+END
+types.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/wap/!svn/ver/104699/renren/renren-wap-talk/trunk/src/muc/types.h
+END
+MucServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/103818/renren/renren-wap-talk/trunk/src/muc/MucServer.cpp
+END
+JID.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wap/!svn/ver/99631/renren/renren-wap-talk/trunk/src/muc/JID.h
+END
+MucHint.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wap/!svn/ver/111761/renren/renren-wap-talk/trunk/src/muc/MucHint.h
+END
+Packet.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/wap/!svn/ver/98189/renren/renren-wap-talk/trunk/src/muc/Packet.h
+END
+MucServiceI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/88083/renren/renren-wap-talk/trunk/src/muc/MucServiceI.cpp
+END
+StanzaStringFactory.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/107315/renren/renren-wap-talk/trunk/src/muc/StanzaStringFactory.cpp
+END
+MucServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/98331/renren/renren-wap-talk/trunk/src/muc/MucServer.h
+END
+MucRoom.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/113312/renren/renren-wap-talk/trunk/src/muc/MucRoom.cpp
+END

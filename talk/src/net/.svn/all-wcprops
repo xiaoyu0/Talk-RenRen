@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/wap/!svn/ver/108292/renren/renren-wap-talk/trunk/src/net
+END
+Connection.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/108292/renren/renren-wap-talk/trunk/src/net/Connection.cpp
+END
+ConnectionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/105177/renren/renren-wap-talk/trunk/src/net/ConnectionManager.h
+END
+AsioServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/105177/renren/renren-wap-talk/trunk/src/net/AsioServer.cpp
+END
+IoServicePool.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/86254/renren/renren-wap-talk/trunk/src/net/IoServicePool.cpp
+END
+Connection.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/107478/renren/renren-wap-talk/trunk/src/net/Connection.h
+END
+IoHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/net/IoHandler.cpp
+END
+AsioPtr.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wap/!svn/ver/105111/renren/renren-wap-talk/trunk/src/net/AsioPtr.h
+END
+AsioServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/wap/!svn/ver/105177/renren/renren-wap-talk/trunk/src/net/AsioServer.h
+END
+IoServicePool.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/86254/renren/renren-wap-talk/trunk/src/net/IoServicePool.h
+END
+ConnectionManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wap/!svn/ver/105177/renren/renren-wap-talk/trunk/src/net/ConnectionManager.cpp
+END
+IoHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/net/IoHandler.h
+END

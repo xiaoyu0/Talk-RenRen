@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/wap/!svn/ver/114546/renren/renren-wap-talk/trunk/src/imAdapter
+END
+ImAdapterTalkZKListener.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/wap/!svn/ver/98109/renren/renren-wap-talk/trunk/src/imAdapter/ImAdapterTalkZKListener.cpp
+END
+ImCommandServiceI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/wap/!svn/ver/100531/renren/renren-wap-talk/trunk/src/imAdapter/ImCommandServiceI.cpp
+END
+ImAdapterTalkZKListener.h
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/wap/!svn/ver/98109/renren/renren-wap-talk/trunk/src/imAdapter/ImAdapterTalkZKListener.h
+END
+ImOnlineAdapterServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/wap/!svn/ver/98928/renren/renren-wap-talk/trunk/src/imAdapter/ImOnlineAdapterServer.cpp
+END
+ImCommandServiceI.h
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/wap/!svn/ver/100531/renren/renren-wap-talk/trunk/src/imAdapter/ImCommandServiceI.h
+END
+ImOnlineAdapterServiceI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/wap/!svn/ver/102664/renren/renren-wap-talk/trunk/src/imAdapter/ImOnlineAdapterServiceI.cpp
+END
+ImAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/114546/renren/renren-wap-talk/trunk/src/imAdapter/ImAdapter.cpp
+END
+ImOnlineAdapterServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/wap/!svn/ver/100531/renren/renren-wap-talk/trunk/src/imAdapter/ImOnlineAdapterServer.h
+END
+IMGateForPhoneAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/wap/!svn/ver/111873/renren/renren-wap-talk/trunk/src/imAdapter/IMGateForPhoneAdapter.cpp
+END
+IMTalkChannel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/93055/renren/renren-wap-talk/trunk/src/imAdapter/IMTalkChannel.cpp
+END
+ImOnlineAdapterServiceI.h
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/wap/!svn/ver/100184/renren/renren-wap-talk/trunk/src/imAdapter/ImOnlineAdapterServiceI.h
+END
+ImAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/107186/renren/renren-wap-talk/trunk/src/imAdapter/ImAdapter.h
+END
+IMGateForPhoneAdapter.h
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/wap/!svn/ver/108292/renren/renren-wap-talk/trunk/src/imAdapter/IMGateForPhoneAdapter.h
+END
+IMTalkChannel.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/93055/renren/renren-wap-talk/trunk/src/imAdapter/IMTalkChannel.h
+END
+Timer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/103741/renren/renren-wap-talk/trunk/src/imAdapter/Timer.cpp
+END
+Timer.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/103741/renren/renren-wap-talk/trunk/src/imAdapter/Timer.h
+END

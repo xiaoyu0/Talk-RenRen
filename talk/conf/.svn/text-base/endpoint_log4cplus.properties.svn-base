@@ -1,0 +1,50 @@
+# Set root category priority to DEBUG and its only appender to A1.
+log4cplus.rootLogger=DEBUG, stdoutAppender
+log4cplus.appender.stdoutAppender=log4cplus::DailyRollingFileAppender 
+log4cplus.appender.stdoutAppender.Schedule=DAILY 
+log4cplus.appender.stdoutAppender.File=/data/server_log/logs/talk/endpoint.log
+log4cplus.appender.stdoutAppender.DatePattern='.'yyyy-MM-dd
+log4cplus.appender.stdoutAppender.Append=true
+log4cplus.appender.stdoutAppender.layout=log4cplus::PatternLayout
+log4cplus.appender.stdoutAppender.layout.ConversionPattern=%D{%Y-%m-%d %H:%M:%S.%q}[%p]%m%n
+
+log4cplus.logger.access=INFO, accessAppender
+log4cplus.additivity.access=false
+log4cplus.appender.accessAppender=log4cplus::DailyRollingFileAppender 
+log4cplus.appender.accessAppender.Schedule=DAILY 
+log4cplus.appender.accessAppender.File=/data/server_log/logs/talk/http_access.log
+log4cplus.appender.accessAppender.DatePattern='.'yyyy-MM-dd
+log4cplus.appender.accessAppender.Append=true
+log4cplus.appender.accessAppender.layout=log4cplus::PatternLayout
+log4cplus.appender.accessAppender.layout.ConversionPattern=%D{%Y-%m-%d %H:%M:%S.%q}|%m%n
+
+log4cplus.logger.temp=INFO, tempAppender
+log4cplus.additivity.temp=false
+log4cplus.appender.tempAppender=log4cplus::DailyRollingFileAppender 
+log4cplus.appender.tempAppender.Schedule=DAILY 
+log4cplus.appender.tempAppender.File=/data/server_log/logs/talk/endpoint_temp.log
+log4cplus.appender.tempAppender.DatePattern='.'yyyy-MM-dd
+log4cplus.appender.tempAppender.Append=true
+log4cplus.appender.tempAppender.layout=log4cplus::PatternLayout
+log4cplus.appender.tempAppender.layout.ConversionPattern=%D{%Y-%m-%d %H:%M:%S.%q}|%m%n
+
+log4cplus.logger.http_action=INFO, httpAppender
+log4cplus.additivity.http_action=false
+log4cplus.appender.httpAppender=log4cplus::DailyRollingFileAppender 
+log4cplus.appender.httpAppender.Schedule=DAILY 
+log4cplus.appender.httpAppender.File=/data/server_log/logs/talk/endpoint_action.log
+log4cplus.appender.httpAppender.DatePattern='.'yyyy-MM-dd
+log4cplus.appender.httpAppender.Append=true
+log4cplus.appender.httpAppender.layout=log4cplus::PatternLayout
+log4cplus.appender.httpAppender.layout.ConversionPattern=%D{%Y-%m-%d %H:%M:%S.%q}|%m%n
+
+log4cplus.logger.schema=INFO, schemaAppender
+log4cplus.additivity.schema=false
+log4cplus.appender.schemaAppender=log4cplus::DailyRollingFileAppender 
+log4cplus.appender.schemaAppender.Schedule=DAILY 
+log4cplus.appender.schemaAppender.File=/data/server_log/logs/talk/talk_schema.log
+log4cplus.appender.schemaAppender.DatePattern='.'yyyy-MM-dd
+log4cplus.appender.schemaAppender.Append=true
+log4cplus.appender.schemaAppender.layout=log4cplus::PatternLayout
+log4cplus.appender.schemaAppender.layout.ConversionPattern=%D{%Y-%m-%d %H:%M:%S.%q}|%m%n
+

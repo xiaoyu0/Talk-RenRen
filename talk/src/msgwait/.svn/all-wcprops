@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/wap/!svn/ver/110090/renren/renren-wap-talk/trunk/src/msgwait
+END
+MessageWaitManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/108455/renren/renren-wap-talk/trunk/src/msgwait/MessageWaitManager.h
+END
+MessageWaitManagerServiceI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/wap/!svn/ver/108455/renren/renren-wap-talk/trunk/src/msgwait/MessageWaitManagerServiceI.cpp
+END
+MessageWaitManagerServiceI.h
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/wap/!svn/ver/108455/renren/renren-wap-talk/trunk/src/msgwait/MessageWaitManagerServiceI.h
+END
+MessageWaitManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/wap/!svn/ver/110090/renren/renren-wap-talk/trunk/src/msgwait/MessageWaitManager.cpp
+END

@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/wap/!svn/ver/116501/renren/renren-wap-talk/trunk/src/bosh
+END
+BoshSession.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/116015/renren/renren-wap-talk/trunk/src/bosh/BoshSession.cpp
+END
+BoshErrorBuilder.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/bosh/BoshErrorBuilder.h
+END
+BoshServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/116015/renren/renren-wap-talk/trunk/src/bosh/BoshServer.cpp
+END
+BoshRequestHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/bosh/BoshRequestHandler.cpp
+END
+BoshSession.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/101801/renren/renren-wap-talk/trunk/src/bosh/BoshSession.h
+END
+BoshServiceI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/wap/!svn/ver/82565/renren/renren-wap-talk/trunk/src/bosh/BoshServiceI.cpp
+END
+BoshRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/bosh/BoshRequestHandler.h
+END
+BoshServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/116501/renren/renren-wap-talk/trunk/src/bosh/BoshServer.h
+END
+Message.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/bosh/Message.h
+END
+BoshServiceI.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/bosh/BoshServiceI.h
+END

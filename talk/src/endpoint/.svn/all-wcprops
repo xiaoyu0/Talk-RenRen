@@ -1,0 +1,125 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wap/!svn/ver/115927/renren/renren-wap-talk/trunk/src/endpoint
+END
+HttpRequestHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/endpoint/HttpRequestHandler.cpp
+END
+HttpRequest.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/98896/renren/renren-wap-talk/trunk/src/endpoint/HttpRequest.cpp
+END
+HttpRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/endpoint/HttpRequestHandler.h
+END
+VersionRequestHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/endpoint/VersionRequestHandler.cpp
+END
+HttpRequest.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/wap/!svn/ver/97572/renren/renren-wap-talk/trunk/src/endpoint/HttpRequest.h
+END
+BoshBaseRequestHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/wap/!svn/ver/105315/renren/renren-wap-talk/trunk/src/endpoint/BoshBaseRequestHandler.cpp
+END
+HttpResponse.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/wap/!svn/ver/86254/renren/renren-wap-talk/trunk/src/endpoint/HttpResponse.cpp
+END
+SendRequestHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/wap/!svn/ver/115927/renren/renren-wap-talk/trunk/src/endpoint/SendRequestHandler.cpp
+END
+VersionRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/endpoint/VersionRequestHandler.h
+END
+BoshBaseRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/endpoint/BoshBaseRequestHandler.h
+END
+BoshRequestHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/wap/!svn/ver/107859/renren/renren-wap-talk/trunk/src/endpoint/BoshRequestHandler.cpp
+END
+HttpResponse.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/endpoint/HttpResponse.h
+END
+HttpIoHandler.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/107858/renren/renren-wap-talk/trunk/src/endpoint/HttpIoHandler.cpp
+END
+SendRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/96842/renren/renren-wap-talk/trunk/src/endpoint/SendRequestHandler.h
+END
+BoshRequestHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/97017/renren/renren-wap-talk/trunk/src/endpoint/BoshRequestHandler.h
+END
+EndpointServer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/wap/!svn/ver/113611/renren/renren-wap-talk/trunk/src/endpoint/EndpointServer.cpp
+END
+HttpIoHandler.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/endpoint/HttpIoHandler.h
+END
+EndpointServiceI.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/wap/!svn/ver/82565/renren/renren-wap-talk/trunk/src/endpoint/EndpointServiceI.cpp
+END
+EndpointServer.h
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/wap/!svn/ver/107857/renren/renren-wap-talk/trunk/src/endpoint/EndpointServer.h
+END
+EndpointServiceI.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/wap/!svn/ver/68414/renren/renren-wap-talk/trunk/src/endpoint/EndpointServiceI.h
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/wap/!svn/ver/114313/renren/renren-wap-talk/trunk/src/jwsmtp
+END
+compat.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/114313/renren/renren-wap-talk/trunk/src/jwsmtp/compat.cpp
+END
+base64.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/114313/renren/renren-wap-talk/trunk/src/jwsmtp/base64.cpp
+END
+compat.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/114313/renren/renren-wap-talk/trunk/src/jwsmtp/compat.h
+END
+base64.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/114313/renren/renren-wap-talk/trunk/src/jwsmtp/base64.h
+END
+jwsmtp.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/114313/renren/renren-wap-talk/trunk/src/jwsmtp/jwsmtp.h
+END
+mailer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/wap/!svn/ver/114313/renren/renren-wap-talk/trunk/src/jwsmtp/mailer.cpp
+END
+mailer.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/wap/!svn/ver/114313/renren/renren-wap-talk/trunk/src/jwsmtp/mailer.h
+END

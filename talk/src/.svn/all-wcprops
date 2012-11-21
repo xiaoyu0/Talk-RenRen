@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/wap/!svn/ver/117622/renren/renren-wap-talk/trunk/src
+END
+Endpoint.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/wap/!svn/ver/114695/renren/renren-wap-talk/trunk/src/Endpoint.cpp
+END
+Muc.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/wap/!svn/ver/107236/renren/renren-wap-talk/trunk/src/Muc.cpp
+END
+ImAdapter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/wap/!svn/ver/100184/renren/renren-wap-talk/trunk/src/ImAdapter.cpp
+END
+MsgWaitManager.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/wap/!svn/ver/107227/renren/renren-wap-talk/trunk/src/MsgWaitManager.cpp
+END
+Config.h
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wap/!svn/ver/102887/renren/renren-wap-talk/trunk/src/Config.h
+END
+Talk.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/wap/!svn/ver/114924/renren/renren-wap-talk/trunk/src/Talk.cpp
+END
+CMakeLists.txt
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/wap/!svn/ver/116028/renren/renren-wap-talk/trunk/src/CMakeLists.txt
+END
+Endpoint4Socket.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/wap/!svn/ver/114695/renren/renren-wap-talk/trunk/src/Endpoint4Socket.cpp
+END
